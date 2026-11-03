@@ -1,0 +1,317 @@
+The **Hasbro 1984 Proton Pack** is Hasbro's full-size *Ghostbusters* (1984) replica pack, sold alongside the 1984 Neutrona Wand. It shares much of its tooling with the earlier HasLab Spengler's Proton Pack, and builders on GBFans.com have been taking both apart to make them more screen accurate, more durable and fully interactive.
+
+This page collects the techniques, measurements and lessons that GBFans members have reported for the 1984 pack and wand. Most of it comes from gbrich's build thread *Hasbro 1984 Proton Pack BIG Overhaul and Customisation*, with contributions from nomake-wan, spooky, mcspain, cantignie and others.[^thread] Every step is credited to the post it came from, so you can read the original with photos.
+
+**How to read this page:** these are methods that individual builders used on their own packs, not manufacturer instructions. Steps marked **reported** come from one builder. Steps marked **corroborated** were confirmed by a second builder. Prices, stock and lead times are **as reported at the time** and will change. Take your time, test-fit before you glue or paint, and expect to void any warranty.
+
+## Before you start
+
+- **Expect glue as well as screws.** Both the pack and the wand combine screws with factory glue in many places, including hidden screws behind plugs and glued-on nuts.[^p52][^p53]
+- **Heat softens the glue.** A hairdryer or heat gun on a low setting loosens glued joints. Use enough heat to soften the glue but not so much that the plastic warps.[^p6][^p46]
+- **Pry with wide, flat tools.** Plastic automotive trim tools spread the load and avoid bending or marking the plastic. A screwdriver concentrates the force and is more likely to damage parts.[^p1][^p15]
+- **Bag and label as you go.** There are many screws. Bagging the hardware for each sub-assembly makes reassembly much easier.[^p4]
+- **Photograph the electronics first.** Take a photo of the stock board and its connectors before you unplug anything. The board's reverse side is labeled for each connector.[^p9][^p10][^p11]
+
+## Known accuracy differences
+
+Builders have pointed out several places where the 1984 pack differs from the 1984 film props, mostly because parts carried over from the HasLab Afterlife pack:
+
+- **Hose strain reliefs:** the 6 mm red and blue hoses use rubber strain reliefs, which match the Afterlife pack. The 1984 packs used short pieces of thin split loom instead (**reported**).[^p4]
+- **Ion arm elbow:** the brass elbow on top of the ion arm connects to the end cap, which also matches Afterlife. On the 1984 packs it connects further back (**reported**).[^p4]
+- **Inner cyclotron switch plate:** the 1984 pack has a blank molded plate, where the HasLab Afterlife pack has a detailed one (**reported**).[^p49]
+- **Injector tubes:** the stock tubes are rippled, whereas the Afterlife hero pack's are straight (**reported**).[^p82]
+- **Motherboard lip:** the stock motherboard wraps around the base of the shell, so the lowest centimeter of the shell has to be flat, which isn't screen accurate (**reported**).[^p55]
+
+## Disassembly
+
+### Motherboard
+
+Remove the motherboard to reach the inner cyclotron. The D-cell battery compartment is molded into the motherboard, so unplug its JST connector to free the board completely.[^p9]
+
+Removing the motherboard also releases the beamline tube and one other tube, which the board holds in place. gbrich suggests wide washers with a small center hole, or 3D-printed spacers, to keep them in place (**reported**).[^p55]
+
+### Cyclotron lid
+
+The lid is two halves held by six internal tabs. To change lenses or reach the emitter parts, the tabs have to be broken (**corroborated**).[^p15][^p53]
+
+1. Lever the inner and outer halves apart with plastic trim tools, working around the edge. Imperial Tech Shop's lens replacement video shows the process.[^p1][^p15]
+2. Once the lid is apart, most parts are held by screws.
+3. The round LED boards under each emitter are held by three melted plastic posts. Trim the tops of the posts with side cutters or a blade, then push each board out from the other side. The boards still work and can be glued back if you aren't replacing the electronics.[^p15][^p16]
+
+### N-filter
+
+The end cap is held by a single central screw and factory glue (**reported**):[^p6]
+
+1. Remove the screw from underneath.
+2. Warm the seam that runs through the vent holes to soften the glue.
+3. Push a long screwdriver into a vent hole, past the mesh, until it rests on something solid.
+4. Lever upward with steady pressure until the cap pops off.
+
+### HGA (hydrogen gas actuator)
+
+The HGA is held by a screwed bracket that is also superglued, plus a twist lock. Several builders struggled with it until nomake-wan posted a non-destructive method, used on both a HasLab and a 1984 pack (**corroborated**):[^p19][^p20][^p27][^p81]
+
+1. Remove the two bracket screws.
+2. Slide a thin blade between the HGA surface and the underside of the bracket, sharp edge up, and push until it bottoms out.
+3. Draw the blade slowly upward along the curve of the bracket to cut the glue. Expect some pops.
+4. Pull the bracket straight up.
+5. Rotate the HGA about 30° so its tabs line up with the slots in the crank generator wall, then slide it out.
+
+spooky reported a similar approach: once everything is unscrewed, a pry tool wedged in pops the glue off the band around the HGA.[^p21] Removing the HGA first makes it much easier to cut off the fake bolts cleanly.[^p29]
+
+### CRT emitter tubes
+
+The clear emitter tubes are glued to their caps and are not designed to come apart.[^p12] Prying the caps off cracked two tubes for gbrich.[^p12] His eventual method sacrifices the clear tubes but saves the caps and the black inserts (**reported**):[^p23]
+
+1. Clamp the middle of the tube with locking pliers and squeeze it from round to oval. This breaks the glue seal and the caps pop off.
+2. The caps survive undamaged. The black inserts are a flexible, polyurethane-like material and also survive.
+
+See *Rebuilding the emitter tubes* below for replacement tube sizes.
+
+### Neutrona wand handle
+
+The rear handle is screwed and glued to its ring pieces.[^p46] The end ring is a separate part held by two screws hidden behind plugs. Warming the end ring with a hairdryer softened the glue enough to remove it. Drilling out the two screws would probably let the handle come off without removing the end ring (**reported**).[^p51]
+
+### Small wand side knob
+
+The small knob behind the heat sink is very hard to remove. gbrich cut it off, following RSquad911's video, then drilled the stub and fitted the aluminum replacement with an M3 bolt (**reported**).[^p46][^p58][^p82]
+
+## Exterior hardware
+
+### Brass elbows and Legris fittings
+
+Swapping the rubber fittings for brass elbows and Legris fittings makes one of the biggest visible differences.[^p4][^p82] The stock holes are too small. gbrich needed about a 9 mm hole and widened 8 mm holes step by step.[^p4] The beamline tube is the only spot where you can pull the rubber part and drop in a brass elbow without modification. The straight fittings have holes that need drilling out.[^p54]
+
+### Real bolts in place of molded ones
+
+1. Cut the molded fake bolts off with side cutters, then trim flush with a sharp blade. Take care not to gouge the plastic around them. This is easier with the HGA removed.[^p22][^p29]
+2. Drill a pilot hole slightly smaller than the bolt shank so the bolt threads into the plastic.[^p22]
+3. gbrich used black M6 bolts. The original props used 1/4-20, and nomake-wan noted that M6 is a close match and may have been used on the UK-built *Frozen Empire* props.[^p20][^p22][^p30]
+4. Cutting the fake bolts leaves a ragged ring. Black M6 washers cover it and flatten the ridge, though they aren't strictly screen accurate.[^p22]
+
+A video, *Hasbro Ghostbusters '84 Proton Pack: Adding Real Bolts and Ribbon Cable Clamp*, covers the same job.[^p22]
+
+### Ribbon cable and clamp
+
+gbrich replaced the stock ribbon cable first with a more accurate one from a Spirit Halloween pack, then with a C&A Props ribbon cable and clamp.[^p68] The C&A clamp mounts with two new 3 mm holes drilled just right of the stock square clamp holes, using the supplied hardware.[^p73]
+
+### Ion arm end cap
+
+The stock end cap is a push fit and can fall off. gbrich drilled two 3 mm holes through the centers of the molded fake bolts into the ion arm and fitted M3 × 20 mm bolts, removing the top rear silver screw that was in the way.[^p73] An aluminum ion arm is the alternative.[^p73]
+
+### Clippard valve
+
+The stock valve's mounting holes don't line up with a replica Clippard R-331 or R-701.[^p53] On the wand, gbrich ground the locating nub off the base of a replica valve with a Dremel rather than drilling into the wand body.[^p77]
+
+### Other details
+
+- **Bumper:** silver screws replaced with black screws and brass washers.[^p32]
+- **Hex hardware:** silver screws swapped for black M3 hex bolts, a better red power switch, and a proper strain relief on the blue hose.[^p12]
+- **Filler and beamline tubes:** 3D-printed bases and caps, with weld beads modeled in black epoxy (**reported**).[^p81][^p82]
+
+## Aluminum motherboard and ALICE frame
+
+gbrich fitted a Redman Studio Workshop aluminum motherboard. With the GPStar speaker installed, he drilled seven 5 mm holes in the board over the lower part of the speaker (not through it) so the sound isn't muffled. The DANGER sticker covers two of the holes and the sound is still clear. He painted the drilled edges black and hot-glued N-filter mesh behind the holes.[^p68]
+
+Gaps he found in Redman's instructions (**reported**):[^p68]
+
+- **Cyclotron bolt:** fit the large cyclotron bolt and its spacer nut while you mount the L-brackets. Forgetting it means extra work later.
+- **Spacer nut:** the domed plastic spacer nut didn't fit through the rear cyclotron hole, possibly because of paint. Test-fit it and enlarge the hole if needed.
+- **Shell bolts:** six bolts go through the shell into the brackets, two at the top and four at the bottom, using the existing fake-screw holes. Only one bolt per bracket is structural. The cosmetic bolts need nuts that aren't included, so start with a small drill bit and enlarge it until each bolt threads in snugly. The structural hole needs to be wider for alignment.
+- **ALICE frame mounting kit:** with Redman's 1984 ALICE frame mounting kit, the bolts were about 3 mm too long for the board to close flush. gbrich printed spacers (20 mm OD × 8 mm ID × 3 mm) to go under the outer washers. Rubber washers would also work.
+- **Rivets:** the board comes with three rivets for behind the power cell, without instructions. Hot glue left visible residue in the snack compartment, so gbrich replaced them with short M3 button-head bolts and nuts, which look the same from outside.[^p73]
+- **Mounting order:** mount the board and its four L-brackets to the pack first, then take it off again to fit the ALICE frame.
+
+gbrich's ALICE frame is a Rothco LC-1 reproduction that arrived black, so it needed no paint. mcspain's is a genuine olive LC-2 that he plans to paint.[^p71][^p72]
+
+## Inner cyclotron
+
+gbrich described the inner cyclotron as the weakest-looking part of the 1984 pack, so it gets the most attention.[^p26]
+
+### Painting
+
+- gbrich primed and sprayed the parts with Jenolite paints: Metallic Gun Metal Grey for the enclosure (he chose it over screen-accurate black for depth), Metallic Copper for accent parts, and Metallic Chrome for the silver parts, which he describes as a bright silver like anodized aluminum.[^p2][^p3]
+- Detailed masking lets some paint bleed through. Respraying the whole section in the second color is an easy fallback.[^p7]
+- Molotow One4All paint pens disappointed him for the molded wires: the nibs were too wide, coverage was poor and the colors were off. Tamiya brush paints worked better.[^p23]
+- He used a Vallejo wash for grime, then washed most of it back off for a fresh-build look.[^p12]
+
+### Real wires
+
+The molded wires on the cake and rear panel look plastic. Two approaches have been reported:
+
+- **Overlay:** gbrich glued 1.8 mm (20 AWG) silicone hook-up wire over the molded wires, letting each step set for several hours. It took about a week. Small flaws show up close but disappear from about two feet away.[^p32][^p33]
+- **Replace:** mcspain ground the painted wires away with a Dremel, drilled holes, laid real wires in, and fixed them with hot glue.[^p47]
+
+### Cable ends
+
+For the black cables inside the lid, gbrich sliced off the molded ends and pushed in real metal BNC connectors. A 5.5 mm hole drilled into each cable stub gives a friction fit with no glue. A 6 mm hole also works with glue (**reported**).[^p12]
+
+### Rebuilding the emitter tubes
+
+gbrich's working replacement is clear acrylic tube, **14 mm OD × 12 mm ID**, cut to **23 mm** (the insert is 22 mm long, leaving 1 mm of play).[^p23][^p32] An 11 mm ID tube is too small for the inserts,[^p12] and a 15 mm OD tube didn't fit the lid housing.[^p23]
+
+- A junior hacksaw struggled to make square cuts. A mitre saw with a fine 60-tooth blade worked.[^p32]
+- He glued a cap to one end, slid the insert in from the other end, then glued that end into the lid. The tubes no longer twist-lock.[^p32]
+- mcspain also cut new acrylic tubes and discarded about half his cuts.[^p81] gbrich suggests 3D printing a twist-lock base so new tubes fit like the originals.[^p82]
+- mcspain bought replacement emitter tops from Imperial Tech Shop.[^p83]
+
+### Switch plate
+
+The blank switch plate can be cut out by repeatedly scoring along its recessed edges from the outside, which took gbrich about 10 minutes. He followed RSquad911's video.[^p49] The GPStar inner cyclotron light board didn't fit the stock switch panel, so he printed a replacement.[^p46]
+
+### Cake
+
+The stock cake is hard to separate without damage and diffuses the light, so gbrich printed TacoBelli's replacement cake, with a lid window cut from 3 mm frosted acrylic and fixed with M2.5 black button-head screws.[^p49][^p62] He didn't glue the new wires permanently, so the lid can come off to reach the LED ring.[^p68] A printed ring centers the LED ring in the cake.[^p49] Leave printed parts out of direct sun: one cake top warped.[^p44]
+
+## Electronics
+
+### GPStar kit
+
+gbrich installed a GPStar II base kit for the Hasbro pack and wand. nomake-wan, one of the GPStar developers, answered questions in the thread.[^p1][^p37]
+
+- **Install guides:** GPStar's PDF guides still describe the first-generation kits, which differ slightly. gbrich pointed to GPStar's YouTube install guide for GPStar II instead (**reported**, check GPStar's current documentation).[^p45]
+- **Control:** the kit is set up through a web interface over the pack's own Wi-Fi. nomake-wan said a phone app or Bluetooth isn't planned, though not ruled out.[^p42][^p43]
+- **Warranty:** two pogo pins snapped off gbrich's cyclotron bypass. GPStar parts carry a two-year warranty. Contact GPStar with the order number. nomake-wan said replacements usually ship the next day.[^p39][^p41][^p42]
+- **Quick disconnect:** the base kit has no quick-release connector between the pack and wand. gbrich added Wago connectors tucked inside the loom.[^p49] He also designed a custom loom connector to replace the Hasbro screw fitting.[^p33]
+
+### Inner cyclotron lights
+
+The GPStar inner cyclotron LED kit is an L-shaped board with eight blinking lights that plugs into the GPStar board and fits the switch panel, with an LED ring daisy-chained into the cake. gbrich bought the version from Frutto Technology in the UK for easier shipping. Frutto also sells a 36-LED coil board.[^p62]
+
+### Power
+
+- gbrich warns that a TalentCell or similar battery is almost always needed with the GPStar kit. The power cell panel may need modifying or reprinting to reach it.[^p70]
+- His 3000 mAh TalentCell sits in the snack compartment and ran the pack all day at MCM Comic Con London. He didn't use the wand that day, so its draw is untested.[^p72][^p88]
+- mcspain is considering a larger battery on the ALICE frame instead, which the GPStar Extreme kit includes mounting hardware for.[^p71]
+
+## Neutrona wand
+
+### De-weathering
+
+gbrich removed the factory weathering, decals and dry transfers (**reported**):[^p46]
+
+1. Tear melamine sponges ("magic erasers") into small pieces so they reach into the weld lines.
+2. Wet them with isopropyl alcohol. Use it sparingly if the electronics are still inside.
+3. Rub lightly until the weathering fades. The stickers peel off.
+4. Wipe with clean microfiber cloths until the haze is gone.
+5. Optionally finish with an automotive vinyl and rubber dressing, but only after applying new decals.
+
+### Parts and fitting
+
+- **Knobs:** gbrich bought aluminum knobs from WorkshopProps on Etsy, which supplies brackets and bolts if you name the wand. On the left side, the supplied mounts hit the GPStar electronics, so he reused the stock plastic brackets and shortened the new countersunk bolts flush with a Dremel, secured with threadlock.[^p58][^p82] Mack's Factory sells the small lever retainer knob separately (part NW103R).[^p59]
+- **Banjos:** for Mack's Factory banjos, gbrich widened the hole in the wand wing with a 4–4.5 mm bit until the screw threaded in by hand, then used red threadlock. The banjo still turns freely.[^p79]
+- **Barrel:** spooky extended the stock barrel with a cut piece of acrylic rather than replacing it, and frosted bands on the tube with 320-grit sandpaper.[^p78] gbrich used a clear barrel tube from the GBFans shop and a Mack's emitter ring.[^p79][^p80]
+- **Decals:** Mack's Factory stickers and Charlesworth Dynamics dry transfers, on both pack and wand.[^p49][^p80]
+- **Weathering:** a Molotow Liquid Chrome pen on edges and corners, and a Tamiya brown dry-brushed on the handle high points.[^p49]
+
+## 3D printing and finishing
+
+gbrich printed many replacement parts (switch plate, cable guides, cake, loom connector, heat sink and stand) on a Bambu Lab A1:[^p35][^p64]
+
+- **Settings:** 0.2 mm nozzle, 0.06 mm layers, ironed top surfaces, outer-to-inner wall order and reduced speed.
+- **Finishing:** light sanding (180, 240, then 320 grit, about 5–10 minutes per part), then about five coats of filler primer building from light to medium, then the color coat. Filler primer filled layer lines better than plain plastic primer.
+- **Load-bearing parts:** use stronger walls and more infill, for example on a pack stand.[^p44]
+
+Community files builders used:
+
+- **TacoBelli:** inner cyclotron cake and switch panel (Etsy).[^p33][^p62]
+- **BrittanyMonreal:** plasma gate, fuse box and power cell door (Thingiverse). mcspain notes the plasma gate design is not canon.[^p47][^p85]
+- **Pack stand:** gbrich's CGTrader stand was too shallow for an ALICE frame on spacers, so he extended two parts by 7.5 cm. Test-fit before painting.[^p85][^p91]
+
+## Wearing the pack
+
+From gbrich's first full day at a convention (**reported**):[^p88]
+
+- The pack is still heavy over about five hours of standing.
+- The center of the ALICE frame and its top nut dig into your back, even through two layers of 3 mm padding. Plan for more padding.[^p72][^p88]
+- A neck pad made from 22 mm ID pipe insulation (13 mm wall) covered in 3 mm adhesive neoprene helped, and a foam strip along the top of the motherboard gave somewhere to rest his head.[^p73][^p88]
+- 3 mm neoprene left marks on the pack. He's considering black felt instead.[^p91]
+
+## Suppliers and lead times
+
+These reports date from September to October 2026 and will change.
+
+- **Redman Studio Workshop** (aluminum motherboard, ALICE mounts): gbrich ordered in early June and received it on 25 September. He reported that Redman ships raw boards first, then painted boards, then boards with accessories.[^p58][^p60][^p70]
+- **GPStar Technologies:** ordered in July, delivered late August. gbrich reported the delay came from a cable shortage at a supplier.[^p58]
+- Both builders described demand as high after the 1984 pack's release in June.[^p58]
+
+## Open questions
+
+- How long the 3000 mAh TalentCell lasts with the wand in use.[^p88]
+- Whether a 6000 mAh battery fits in the snack compartment.[^p72]
+- A printable twist-lock base for replacement emitter tubes.[^p82]
+
+## Credits
+
+This page is built from the work and generosity of:
+
+- **gbrich:** the build thread and nearly all of the techniques on this page.
+- **nomake-wan:** the HGA removal method, GPStar support and historical context.
+- **spooky:** HGA tips, the barrel extension and fitting compatibility notes.
+- **mcspain**, **cantignie**, **flashlight_buff** and everyone else who posted questions and progress.
+- Video makers **Imperial Tech Shop** and **RSquad911**, whose tutorials are referenced in the thread.
+
+Compiled by ryan-brumback, with AI assistance (Anthropic's Claude) for organizing the thread. Every step was checked against the original post.
+
+## References
+
+[^thread]: gbrich and others, [*Hasbro 1984 Proton Pack BIG Overhaul and Customisation*](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236), GBFans.com forum, July–November 2026.
+[^p1]: gbrich, [post #1](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/1), 22 July 2026.
+[^p2]: gbrich, [post #2](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/2), 23 July 2026.
+[^p3]: gbrich, [post #3](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/3), 24 July 2026.
+[^p4]: gbrich, [post #4](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/4), 25 July 2026.
+[^p6]: gbrich, [post #6](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/6), 28 July 2026.
+[^p7]: gbrich, [post #7](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/7), 30 July 2026.
+[^p9]: gbrich, [post #9](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/9), 31 July 2026.
+[^p10]: flashlight_buff, [post #10](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/10), 31 July 2026.
+[^p11]: gbrich, [post #11](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/11), 31 July 2026.
+[^p12]: gbrich, [post #12](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/12), 2 August 2026.
+[^p15]: gbrich, [post #15](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/15), 3 August 2026.
+[^p16]: gbrich, [post #16](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/16), 4 August 2026.
+[^p19]: cantignie, [post #19](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/19), 9 August 2026.
+[^p20]: gbrich, [post #20](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/20), 9 August 2026.
+[^p21]: spooky, [post #21](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/21), 10 August 2026.
+[^p22]: gbrich, [post #22](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/22), 10 August 2026.
+[^p23]: gbrich, [post #23](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/23), 10 August 2026.
+[^p26]: gbrich, [post #26](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/26), 10 August 2026.
+[^p27]: nomake-wan, [post #27](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/27), 11 August 2026.
+[^p29]: gbrich, [post #29](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/29), 11 August 2026.
+[^p30]: nomake-wan, [post #30](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/30), 11 August 2026.
+[^p32]: gbrich, [post #32](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/32), 16 August 2026.
+[^p33]: gbrich, [post #33](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/33), 25 August 2026.
+[^p35]: gbrich, [post #35](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/35), 29 August 2026.
+[^p37]: nomake-wan, [post #37](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/37), 30 August 2026.
+[^p39]: gbrich, [post #39](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/39), 30 August 2026.
+[^p41]: nomake-wan, [post #41](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/41), 31 August 2026.
+[^p42]: gbrich, [post #42](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/42), 31 August 2026.
+[^p43]: nomake-wan, [post #43](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/43), 3 September 2026.
+[^p44]: gbrich, [post #44](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/44), 7 September 2026.
+[^p45]: gbrich, [post #45](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/45), 7 September 2026.
+[^p46]: gbrich, [post #46](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/46), 15 September 2026.
+[^p47]: mcspain, [post #47](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/47), 19 September 2026.
+[^p49]: gbrich, [post #49](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/49), 23 September 2026.
+[^p51]: gbrich, [post #51](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/51), 24 September 2026.
+[^p52]: spooky, [post #52](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/52), 24 September 2026.
+[^p53]: gbrich, [post #53](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/53), 24 September 2026.
+[^p54]: spooky, [post #54](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/54), 24 September 2026.
+[^p55]: gbrich, [post #55](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/55), 24 September 2026.
+[^p58]: gbrich, [post #58](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/58), 26 September 2026.
+[^p59]: nomake-wan, [post #59](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/59), 26 September 2026.
+[^p60]: gbrich, [post #60](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/60), 28 September 2026.
+[^p62]: gbrich, [post #62](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/62), 29 September 2026.
+[^p64]: gbrich, [post #64](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/64), 29 September 2026.
+[^p68]: gbrich, [post #68](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/68), 1 October 2026.
+[^p70]: gbrich, [post #70](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/70), 1 October 2026.
+[^p71]: mcspain, [post #71](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/71), 1 October 2026.
+[^p72]: gbrich, [post #72](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/72), 1 October 2026.
+[^p73]: gbrich, [post #73](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/73), 5 October 2026.
+[^p77]: gbrich, [post #77](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/77), 7 October 2026.
+[^p78]: spooky, [post #78](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/78), 7 October 2026.
+[^p79]: gbrich, [post #79](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/79), 7 October 2026.
+[^p80]: gbrich, [post #80](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/80), 8 October 2026.
+[^p81]: mcspain, [post #81](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/81), 10 October 2026.
+[^p82]: gbrich, [post #82](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/82), 12 October 2026.
+[^p83]: mcspain, [post #83](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/83), 14 October 2026.
+[^p85]: gbrich, [post #85](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/85), 20 October 2026.
+[^p88]: gbrich, [post #88](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/88), 27 October 2026.
+[^p91]: gbrich, [post #91](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/91), 2 November 2026.
