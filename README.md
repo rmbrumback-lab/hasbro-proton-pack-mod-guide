@@ -7,7 +7,7 @@ A community-sourced, fully attributed reference for the **Hasbro 1984 Proton Pac
 | | |
 |---|---|
 | Subject | Hasbro 1984 Proton Pack (and its Neutrona Wand, in the supporting sections) |
-| Blueprint so far | Overall height about 665 mm (640–690), motherboard width about 326 mm, cyclotron rear panel 262 mm, cake top 141 mm, cake height 46 mm; general arrangement in progress. Register: [`data/measurements.json`](data/measurements.json); method: [`docs/METHOD.md`](docs/METHOD.md) |
+| Blueprint so far | Overall height about 665 mm (640–690); motherboard outline (lower section about 302 mm, top 329 mm, 346 mm at the gearbox step); cyclotron rear panel 262 mm, cake top 141 mm, cake height 46 mm; general arrangement in progress. Register: [`data/measurements.json`](data/measurements.json); method: [`docs/METHOD.md`](docs/METHOD.md) |
 | Primary sources | Hasbro product photos; GBFans thread [Hasbro 1984 Proton Pack BIG Overhaul and Customisation](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236), posts #1–91; 96 related Hasbro/HasLab forum topics |
 | Wiki draft | [`docs/wiki/hasbro-1984-proton-pack.md`](docs/wiki/hasbro-1984-proton-pack.md), about 4,200 words, 59 posts cited |
 | Drawings | 7 part sheets ([preview and attribution](docs/RENDERINGS.md), [printable PDF](docs/drawings/blueprints.pdf)); whole-pack sheets in progress |

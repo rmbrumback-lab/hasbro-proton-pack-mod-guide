@@ -164,6 +164,7 @@
   },
   "open_issues": [
     "Overall height now ~665 mm (640-690). A tape-measure reading by an owner would settle it; ask in the thread.",
+    "Ask Redman Studio Workshop for the HasLab board's cut outline (or gbrich for a tape measurement): it would fix height, widths and step positions at once.",
     "Head-length scaling of the worn photos (590-595 mm) disagrees by ~11%; find out why before using worn photos for anything.",
     "Identify which tubes on the 1984 pack are the 6 mm hoses gbrich refers to; measure those instead."
   ],
@@ -242,33 +243,42 @@
     "status": "estimated (eight references, five independent methods)",
     "definition": "motherboard top to bottom edge in the straight-on back view (image 9); the front view's gearbox top to lower disc spans the same height within about 2%",
     "foreshortening_img1": {
-      "k": 0.91,
+      "k": 0.88,
       "range": [
-        0.89,
-        0.93
+        0.85,
+        0.92
       ],
       "readings": [
         {
-          "method": "unlit upper-left cyclotron lens, a circle, appears 92 x 85 px (w x h)",
-          "k": 0.92
+          "method": "unlit upper-left cyclotron lens, ellipse fit to red mask: 84.9 x 93.3 px (h x w)",
+          "k": 0.91
         },
         {
-          "method": "shell width / front height in image 1 (932 / 1704 px) vs board width / height in the straight-on back view, image 9 (851 / 1737 px)",
-          "k": 0.896
+          "method": "silver end cap of the bumper's copper knob, ellipse fit: 75.0 x 87.9 px (h x w)",
+          "k": 0.853
         }
       ],
+      "rejected_reading": "v0.4 draft used image-1 shell width (932 px) against image-9 board width; invalid, because the image-1 width includes the power-cell box and the image-9 width mixed board sections",
       "consequence": "the 590 mm front height of v0.3 was image-1 pixel height times a horizontal scale; it is low by 1/k"
     },
     "anchors": [
       {
         "anchor": "Crank knob MS91528, 1-1/4 in, image 1",
         "source": "GBFans wiki: Crank Knob",
-        "height_mm": 681
+        "height_mm": [
+          674,
+          729
+        ],
+        "note": "620 mm / k, k 0.85-0.92"
       },
       {
         "anchor": "Thin red tube 5/32 in, image 1",
         "source": "GBFans wiki: Legris",
-        "height_mm": 641
+        "height_mm": [
+          634,
+          686
+        ],
+        "note": "583 mm / k"
       },
       {
         "anchor": "Shoulder strap webbing, image 9: 101.5 px; assumed 1.5 in (38.1 mm), the usual size for this buckle style",
@@ -290,10 +300,10 @@
         "anchor": "Rothco LC-1 ALICE frame '20.5 x 12.5 in' (gbrich's frame, post #72) lying on the Redman board, post #68 photo; length via the side tubes' vanishing point",
         "source": "https://www.rothco.com/product/rothco-alice-pack-frame-with-attachments",
         "height_mm": [
-          640,
+          630,
           675
         ],
-        "note": "Rothco lists 20.5 x 12.5 in as shipping dimensions; if the frame itself is smaller, this estimate drops in proportion"
+        "note": "Rothco lists 20.5 x 12.5 in as shipping dimensions; if the frame itself is smaller, this estimate drops in proportion; motherboard widths from the same photo (286 mm lower section, 349 mm at the gearbox step, frame-scaled) over image-9 width/height ratios give 630 and 671 mm"
       },
       {
         "anchor": "HasLab Spengler pack shipping box 26.75 x 14.57 in (Shacknews unboxing)",
@@ -321,14 +331,40 @@
         "why": "would need a head length about 225 mm, 3.5 SD above the ANSUR II mean; perspective of the worn photos is not controlled. Unexplained; kept as an open issue"
       }
     ],
-    "median_of_kept_mm": 667,
-    "width": {
-      "board_main_width_mm": 326,
-      "range_mm": [
-        314,
-        338
-      ],
-      "method": "image 9 board width/height 851/1737 = 0.490 x 665 mm; image 1 shell width 932 px x horizontal scale 0.342-0.364 mm/px gives 319-339 mm; the 12.5 in ALICE frame sits just inside the board in the post #68 photos"
-    }
+    "median_of_kept_mm": 667
+  },
+  "motherboard_outline": {
+    "photo": "https://cdn.media.amplience.net/i/hasbropulse/G19145L00_9.png (straight-on back view)",
+    "pixels": {
+      "top_y": 175,
+      "bottom_y": 1912,
+      "height_px": 1737,
+      "left_edge_x": "494-516",
+      "right_edge_x": {
+        "upper section, y 175-470": 1352,
+        "gearbox step, y 480-790": 1398,
+        "lower section, y 800-1300": 1293
+      }
+    },
+    "ratios_to_height": {
+      "lower_section_width": 0.454,
+      "upper_section_width": 0.494,
+      "widest_at_step": 0.52
+    },
+    "at_665_mm": {
+      "lower_section_width_mm": 302,
+      "upper_section_width_mm": 329,
+      "widest_mm": 346,
+      "step_from_top_mm": [
+        113,
+        236
+      ]
+    },
+    "status": "estimated; scales with overall height (+/-4%)",
+    "checks": [
+      "Rothco frame 318 mm: wider than lower section, narrower than upper section; matches post #68 photos (tubes overhang the lower board, sit inside it at the top)",
+      "Redman listed 15 x 27 in: +3% on length, +10% on width vs this outline; treated as a rounded envelope"
+    ],
+    "supersedes": "v0.4 draft 'motherboard width 326 mm', which mixed board sections"
   }
 }
