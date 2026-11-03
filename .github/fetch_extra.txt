@@ -1,2 +1,1 @@
-https://tools.openlab.psu.edu/publicData/ANSUR_II_MALE_Public.csv
-https://tools.openlab.psu.edu/publicData/ANSUR_II_FEMALE_Public.csv
+https://apps.dtic.mil/sti/pdfs/ADA611869.pdf ANSURII_ADA611869.pdf
