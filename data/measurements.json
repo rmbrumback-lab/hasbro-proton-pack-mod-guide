@@ -326,9 +326,8 @@
       }
     },
     "ratios_to_height": {
-      "lower_section_width": 0.454,
       "upper_section_width": 0.494,
-      "widest_at_step": 0.52
+      "lower_section_width": 0.454
     },
     "status": "estimated; scales with overall height (+/-4%)",
     "checks": [
@@ -336,14 +335,118 @@
     ],
     "supersedes": "v0.4 draft 'motherboard width 326 mm', which mixed board sections",
     "at_655_mm": {
-      "lower_section_width_mm": 297,
-      "upper_section_width_mm": 324,
-      "widest_mm": 341,
-      "step_from_top_mm": [
-        111,
-        232
-      ]
-    }
+      "upper_section_width_mm": 323.5,
+      "lower_section_width_mm": 297.1,
+      "top_edge_drop_mm": 11.3,
+      "step_hidden_mm_below_top": [
+        115,
+        236
+      ],
+      "power_cell_proud_of_upper_edge_mm": 17.3
+    },
+    "correction_v06": "v0.4/v0.5 'widest point 341-346 mm at the gearbox step' was the power cell standing proud of the board edge (its height band 115-236 mm matches the power cell in the front photo, 121-253 mm). The board has two widths only; the step is hidden behind the power cell. The strip beyond the lower edge (back px x 1293-1335, y 800-1300) is the vertical tube seen in the front photo at x 545-590, y 760-1230.",
+    "holes_and_slots": "tools/pack_data.py HOLES_PX, SLOTS_PX"
   },
-  "_scope": "Hasbro 1984 Proton Pack (G19145L00) only. Film-prop part sizes, other packs (HasLab Spengler/Afterlife, Spirit) and aftermarket listings for other packs are not used as dimensional references (owner instruction, 2026-11-03)."
+  "_scope": "Hasbro 1984 Proton Pack (G19145L00) only. Film-prop part sizes, other packs (HasLab Spengler/Afterlife, Spirit) and aftermarket listings for other packs are not used as dimensional references (owner instruction, 2026-11-03).",
+  "front_layout": {
+    "photo": "https://cdn.media.amplience.net/i/hasbropulse/G19145L00_1.png",
+    "scale": {
+      "vertical_mm_per_px": 0.3844,
+      "horizontal_mm_per_px": 0.3383,
+      "k": 0.88
+    },
+    "components_mm": {
+      "Gearbox": [
+        159.5,
+        7.3,
+        108.2,
+        169.1
+      ],
+      "Booster tube": [
+        91.8,
+        -6.2,
+        33.8,
+        263.3
+      ],
+      "Gun mount": [
+        22.5,
+        13.1,
+        64.3,
+        69.2
+      ],
+      "Power cell": [
+        -26.6,
+        76.5,
+        82.9,
+        176.8
+      ],
+      "Capacitor (DANGER label)": [
+        142.6,
+        262.9,
+        30.4,
+        67.3
+      ],
+      "Twin-lens block": [
+        76.6,
+        278.3,
+        64.3,
+        55.7
+      ],
+      "Bumper": [
+        49.5,
+        503.2,
+        252.0,
+        46.1
+      ]
+    },
+    "round_parts_mm_cx_cy_d": {
+      "Crank generator": [
+        239.0,
+        341.7,
+        81.2
+      ],
+      "Cyclotron lid": [
+        186.2,
+        516.6,
+        239.5
+      ],
+      "Cyclotron housing": [
+        186.2,
+        516.6,
+        267.2
+      ],
+      "Bumper knob (copper)": [
+        190.3,
+        542.8,
+        32.8
+      ],
+      "Lower cap (DANGER label)": [
+        236.3,
+        622.0,
+        66.0
+      ]
+    },
+    "lenses": {
+      "diameter_mm": 31.6,
+      "pitch_h_mm": 93.4,
+      "pitch_v_mm": 92.6
+    },
+    "checks": [
+      "lens pitch equal across and down (93.4 / 92.6 mm): supports k = 0.88",
+      "power cell overhang: 27 mm (front) vs 17 mm (back): front-view horizontal uncertainty ~10 mm",
+      "housing ~267 mm holds the 262 mm rear panel (post #23); lid ~240 mm covers the ~222 mm opening (photo 7)"
+    ],
+    "status": "estimated; envelopes read on a 50 px grid at full resolution (+/-10 px)"
+  },
+  "side_view": {
+    "photo": "https://cdn.media.amplience.net/i/hasbropulse/G19145L00_3.png",
+    "depths_mm": {
+      "Gearbox front": 162,
+      "Cyclotron lid face": 182,
+      "Lower cap front": 212,
+      "Bumper knob tip": 256
+    },
+    "status": "schematic, about +/-15%",
+    "method": "perpendicular distance from the board's near edge, corrected for ~14 deg yaw (lid aspect ~0.24) and the half-width offset of the near edge"
+  }
 }

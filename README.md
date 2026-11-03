@@ -7,10 +7,10 @@ A community-sourced, fully attributed reference for the **Hasbro 1984 Proton Pac
 | | |
 |---|---|
 | Subject | Hasbro 1984 Proton Pack (and its Neutrona Wand, in the supporting sections) |
-| Blueprint so far | Overall height about 655 mm (640–680, frame-based); motherboard outline (lower section about 297 mm, top 324 mm, 341 mm at the gearbox step); cyclotron rear panel 262 mm, cake top 141 mm, cake height 46 mm; general arrangement in progress. Register: [`data/measurements.json`](data/measurements.json); method: [`docs/METHOD.md`](docs/METHOD.md) |
+| Blueprint so far | Overall height about 655 mm (640–680, frame-based); four whole-pack sheets: general arrangement (front, back, schematic side), motherboard with holes and slots (324 / 297 mm), front layout of the main parts, cyclotron (lid ~240 mm, lenses 32 mm on a 93 mm pitch); cyclotron rear panel 262 mm, cake top 141 mm, cake height 46 mm; Register: [`data/measurements.json`](data/measurements.json); method: [`docs/METHOD.md`](docs/METHOD.md) |
 | Primary sources | Hasbro product photos; GBFans thread [Hasbro 1984 Proton Pack BIG Overhaul and Customisation](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236), posts #1–91; 96 related Hasbro/HasLab forum topics |
 | Wiki draft | [`docs/wiki/hasbro-1984-proton-pack.md`](docs/wiki/hasbro-1984-proton-pack.md), about 4,200 words, 59 posts cited |
-| Drawings | 7 part sheets ([preview and attribution](docs/RENDERINGS.md), [printable PDF](docs/drawings/blueprints.pdf)); whole-pack sheets in progress |
+| Drawings | Whole pack: sheets P1–P4 ([printable PDF](docs/drawings/pack_blueprints.pdf)); parts and mods: sheets S1–S7 ([printable PDF](docs/drawings/blueprints.pdf)); [preview and attribution](docs/RENDERINGS.md) |
 | Attribution | footnote on every claim; every drawn dimension linked to its post and the forum photos of that part ([RENDERINGS.md](docs/RENDERINGS.md)); [verification checklist](docs/VERIFICATION.md) per post |
 
 This guide builds directly on the work of gbrich, nomake-wan, spooky, mcspain, cantignie and other GBFans members. See **[Credits](#credits)**.

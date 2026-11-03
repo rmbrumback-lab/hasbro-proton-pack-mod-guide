@@ -34,14 +34,29 @@ No manufacturer drawings exist, so the blueprint is reconstructed from photograp
 - **Correction history:** version 0.3 gave 590 mm and version 0.4 gave 665 mm. Version 0.4 also used film-prop part sizes and a HasLab motherboard listing, which are outside this page's scope and have been removed.
 - **Depth:** in progress.
 
+### General arrangement
+
+![General arrangement: front, back and side](IMG:drawings/p1_general_arrangement.png)
+
+*Sheet P1, scale 1:6. Front and back views to the 655 mm overall height; the side view is schematic.[^hasbro][^p68]*
+
+- **Front view:** Hasbro's front product photo, corrected for its vertical foreshortening (0.88). Horizontal values on the front view carry about ±5%, because the correction itself is uncertain (0.85–0.92).[^hasbro]
+- **Back view:** the straight-on back photo; the motherboard outline, holes and strap slots are drawn from it directly.[^hasbro]
+- **Side view (schematic):** depths from the back of the board, from Hasbro's worn side photo corrected for a camera angle of about 14°: gearbox front about 162 mm, cyclotron lid face about 182 mm, lower cap about 212 mm, bumper knob tip about 256 mm. These are about ±15% and are drawn dashed.[^hasbro]
+
 ### Motherboard
 
-The motherboard is the flat back plate the shell, cyclotron and harness mount to. Its outline is measured on Hasbro's straight-on back photo; each width below is a ratio to the board's height, so all of them move with the 655 mm estimate (±3%).[^hasbro]
+![Motherboard outline, holes and strap slots](IMG:drawings/p2_motherboard.png)
 
-- **Lower section width** (below the gearbox step to the bottom taper): about **297 mm** (11¾ in), **estimated**.
-- **Upper section width** (top of the board): about **324 mm** (12¾ in), **estimated**.
-- **Widest point**, the step behind the gearbox: about **341 mm** (13⅜ in), **estimated**. It runs from about 111 mm to 232 mm below the top edge, on the gearbox side.
-- **Bottom taper and corner radii:** in progress.
+*Sheet P2, scale 1:4. Back view; dashed where straps, belt or the power cell hide the edge.[^hasbro]*
+
+The motherboard is the flat back plate the shell, cyclotron and harness mount to. Every value is a ratio measured on Hasbro's straight-on back photo, scaled to the 655 mm height (±3%).[^hasbro]
+
+- **Upper section width:** about **324 mm** (12¾ in), **estimated**. The top edge drops about 11 mm on the power-cell side.
+- **Lower section width:** about **297 mm** (11¾ in), **estimated**. The step between the two widths is hidden behind the power cell, between 115 and 236 mm below the top.
+- **Parts beyond the edge:** the power cell stands about 17 mm proud of the upper edge, and a vertical tube runs just outside the lower edge. *Correction from version 0.4:* the "341 mm widest point" given there was the power cell, not the board.
+- **Holes and slots:** twelve holes (about 5–7 mm) and two strap slots (about 46 × 6 mm) are located on sheet P2 to ±2 mm plus the scale.
+- **Bottom taper:** hidden by the belt in the photo; drawn schematic.
 - **Fit check with the ALICE frame:** the 12½ in (318 mm) frame is wider than the lower section and narrower than the upper section. gbrich's photos show exactly that: the frame's side tubes overhang the lower board and sit just inside the edges at the top.[^p68][^rothco]
 
 #### Stock board and the Redman aluminum board
@@ -55,16 +70,38 @@ gbrich replaced the stock board with an aluminum board from Redman Studio Worksh
 
 Fitting details are under [Aluminum motherboard and ALICE frame](#aluminum-motherboard-and-alice-frame).
 
+### Front layout
+
+![Front layout of the main parts](IMG:drawings/p3_front_layout.png)
+
+*Sheet P3, scale 1:4. Outer envelopes of the main parts as seen from the front, with positions from the board's top and left edges.[^hasbro]*
+
+Sizes are envelopes as seen from the front, **estimated** (about ±5% across, ±3% up and down):[^hasbro]
+
+- **Gearbox:** 108 wide × 169 high, 7 mm below the top of the board.
+- **Booster tube:** about 34 mm across and 263 mm long; its top stands about 6 mm above the board.
+- **Gun mount:** 64 wide × 69 high, 13 mm below the top of the board.
+- **Power cell:** 83 wide × 177 high, 76 mm below the top of the board.
+- **Crank generator:** about 81 mm across, centred 342 mm below the top.
+- **Bumper:** 252 wide × 46 high, 503 mm below the top of the board; copper knob about 33 mm across.
+- **Lower cap** (DANGER label): about 66 mm across, at the bottom of the pack.
+
 ### Cyclotron
 
-- **Rear panel outer diameter:** **262 mm**, **estimated**, range 260–264 mm. Measured on a cutting mat.[^p23]
-- **Cake top diameter:** **141 mm**, **estimated**, range 138–144 mm. Measured on a cutting mat, with a height correction.[^p23]
-- **Cake height:** **46 mm**, **estimated**, range 41–53 mm. From a second cutting-mat photo.[^p23]
-- **Lid, lenses and emitters:** in progress.
+![Cyclotron lid, lenses, rear panel and cake](IMG:drawings/p4_cyclotron.png)
 
-### General arrangement
+*Sheet P4, scale 1:2. Lid and lenses from Hasbro's front photo; rear panel and cake measured on gbrich's cutting-mat photos.[^hasbro][^p23]*
 
-Front, back and side views with component positions are in progress. They will be drawn to the 655 mm overall height and the motherboard outline above. A tape-measure reading of a 1984 pack's motherboard would confirm both.
+- **Rear panel outer diameter:** **262 mm**, **measured** (cutting-mat photo), range 260–264 mm.[^p23]
+- **Cake top diameter:** **141 mm**, **measured** (cutting-mat photo, height-corrected), range 138–144 mm.[^p23]
+- **Cake height:** **46 mm**, **measured** (cutting-mat photo), range 41–53 mm.[^p23]
+- **Lid diameter:** about **239 mm**, **estimated**.[^hasbro]
+- **Lenses:** four, about **32 mm** across, on a **93 mm** square pitch, **estimated**. The pitch measures the same across and up and down (93.4 and 92.6 mm), which checks the front photo's foreshortening correction.[^hasbro]
+- **Housing and opening:** the round shell housing is about 267 mm across, enough to hold the 262 mm rear panel; with the lid off, the opening is about 222 mm, which the lid covers. Both are schematic.[^hasbro][^p23]
+
+### Part detail sheets
+
+Sheets S1–S7 detail individual parts and modifications and sit with the sections they belong to: emitter tubes (S1), ALICE frame spacer (S2), neck pad (S3), BNC cable ends (S4), ion arm end cap (S5), HGA removal (S6) and hole sizes (S7). All sheets print at true scale from `docs/drawings/pack_blueprints.pdf` (P1–P4) and `docs/drawings/blueprints.pdf` (S1–S7) in the repository.
 
 ## Taking it apart
 

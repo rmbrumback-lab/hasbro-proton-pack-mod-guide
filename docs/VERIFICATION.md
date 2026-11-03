@@ -209,11 +209,15 @@ Cited posts: 60. Verified: 14.
 >
 > **Only Hasbro 1984 pack evidence.** Scale comes only from the Hasbro 1984 pack itself: Hasbro's product photos of it, parts of it measured on a cutting mat, and the ALICE frame gbrich fitted to his pack. Film-prop part sizes, other Hasbro packs (such as the HasLab Spengler pack) and aftermarket listings for those packs are not used for dimensions.
 >
-> **Rear panel outer diameter:** **262 mm**, **estimated**, range 260–264 mm. Measured on a cutting mat.
+> *Sheet P4, scale 1:2. Lid and lenses from Hasbro's front photo; rear panel and cake measured on gbrich's cutting-mat photos.*
 >
-> **Cake top diameter:** **141 mm**, **estimated**, range 138–144 mm. Measured on a cutting mat, with a height correction.
+> **Rear panel outer diameter:** **262 mm**, **measured** (cutting-mat photo), range 260–264 mm.
 >
-> **Cake height:** **46 mm**, **estimated**, range 41–53 mm. From a second cutting-mat photo.
+> **Cake top diameter:** **141 mm**, **measured** (cutting-mat photo, height-corrected), range 138–144 mm.
+>
+> **Cake height:** **46 mm**, **measured** (cutting-mat photo), range 41–53 mm.
+>
+> **Housing and opening:** the round shell housing is about 267 mm across, enough to hold the 262 mm rear panel; with the lid off, the opening is about 222 mm, which the lid covers. Both are schematic.
 >
 > The clear emitter tubes are glued to their caps and are not designed to come apart. Prying the caps off cracked two tubes for gbrich. His eventual method sacrifices the clear tubes but saves the caps and the black inserts (**reported**):
 >
@@ -518,6 +522,8 @@ Cited posts: 60. Verified: 14.
 > **Only Hasbro 1984 pack evidence.** Scale comes only from the Hasbro 1984 pack itself: Hasbro's product photos of it, parts of it measured on a cutting mat, and the ALICE frame gbrich fitted to his pack. Film-prop part sizes, other Hasbro packs (such as the HasLab Spengler pack) and aftermarket listings for those packs are not used for dimensions.
 >
 > **Overall height** (top to bottom of the motherboard): about **655 mm** (25¾ in), **estimated**, range 640–680 mm. Three measurements against the 20.5 × 12.5 in Rothco ALICE frame on gbrich's 1984 pack agree: the frame lying on the board (630–675 mm); the frame's width, which sits inside the board's upper section and overhangs its lower section, so the board is at least 644 mm tall; and the board widths in the same photo (630 and 671 mm). The frame's size is Rothco's listed figure, and it limits the accuracy to about ±3%.
+>
+> *Sheet P1, scale 1:6. Front and back views to the 655 mm overall height; the side view is schematic.*
 >
 > **Fit check with the ALICE frame:** the 12½ in (318 mm) frame is wider than the lower section and narrower than the upper section. gbrich's photos show exactly that: the frame's side tubes overhang the lower board and sit just inside the edges at the top.
 >

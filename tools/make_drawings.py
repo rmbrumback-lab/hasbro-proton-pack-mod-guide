@@ -28,7 +28,7 @@ import drawing_data as dd  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "docs" / "drawings"
-VERSION = "0.2"
+VERSION = "0.6"
 
 PAGE_W, PAGE_H = 279.4, 215.9          # US Letter landscape, mm
 MM = 1 / 25.4                           # inches per mm
@@ -184,8 +184,8 @@ class Sheet:
         self.line([x0 + 96, x0 + 96], [y0 + 20, y0 + 30], lw=0.4, z=7)
         self.line([x0 + 64, x0 + 64], [y0, y0 + 10], lw=0.4, z=7)
         t = lambda xx, yy, s, **k: a.text(xx, yy, s, color=k.pop("color", LINE), zorder=8, **k)
-        t(x0 + 2, y0 + 39.5, "HASBRO 1984 PROTON PACK MODDING", fontsize=6.2, weight="bold", va="center")
-        t(x0 + 2, y0 + 34, "GBFans.com community guide · drawn from forum-reported measurements",
+        t(x0 + 2, y0 + 39.5, "HASBRO 1984 PROTON PACK · DETAIL SHEETS", fontsize=6.2, weight="bold", va="center")
+        t(x0 + 2, y0 + 34, "GBFans.com community blueprint · drawn from forum-reported measurements",
           fontsize=4.8, va="center", color=SCHEM)
         t(x0 + 2, y0 + 25, title.upper(), fontsize=8.6, weight="bold", va="center")
         t(x0 + 98, y0 + 27.2, "SHEET", fontsize=4.5, color=SCHEM, va="center")
