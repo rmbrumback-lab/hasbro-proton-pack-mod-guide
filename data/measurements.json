@@ -1,35 +1,94 @@
 {
   "_note": "Measurement register. Every value lists each reading, the photo, the reference used and the method. Photos are third-party and are linked, not stored. See docs/METHOD.md.",
   "references": {
-    "mat_grid": {"what": "A3 self-healing cutting mat, 1 cm printed grid, 0-42 x 0-27 cm rulers, labelled circles 10-29 mm", "in_photos": ["p023 IMG_5130", "p023 IMG_5131", "p023 IMG_5122-series panel photo"], "status": "printed scale; homography residual 0.16-0.39 mm RMS over 351-631 grid crossings"},
-    "hose_6mm": {"what": "Hasbro stock red and blue hoses, 6 mm", "source": "gbrich, post #4", "status": "stated; not independently verified"}
+    "mat_grid": {
+      "what": "A3 self-healing cutting mat, 1 cm printed grid, 0-42 x 0-27 cm rulers, labelled circles 10-29 mm",
+      "in_photos": [
+        "p023 IMG_5130",
+        "p023 IMG_5131",
+        "p023 IMG_5122-series panel photo"
+      ],
+      "status": "printed scale; homography residual 0.16-0.39 mm RMS over 351-631 grid crossings"
+    },
+    "hose_6mm": {
+      "what": "Hasbro stock red and blue hoses, 6 mm",
+      "source": "gbrich, post #4",
+      "status": "stated; not independently verified"
+    },
+    "head_length_ansur2": {
+      "what": "Adult head length (glabella to back of head), ANSUR II 2012 US Army survey",
+      "men_mm": {
+        "p50": 199.9,
+        "sd": 7.1
+      },
+      "women_mm": {
+        "p50": 190.0,
+        "sd": 7.4
+      },
+      "source": "The Ergonomics Center of North Carolina, Anthropometric Summary Data Tables (2017), citing Gordon et al. 2014 (ANSUR II)",
+      "url": "https://www.ergocenter.ncsu.edu/wp-content/uploads/sites/18/2017/09/Anthropometric-Summary-Data-Tables.pdf",
+      "note": "+3 mm allowed for short hair in photos"
+    }
   },
   "camera": {
     "gbrich_main_camera_focal_px_at_1920": {
-      "value": 1420, "range": [1390, 1460],
+      "value": 1420,
+      "range": [
+        1390,
+        1460
+      ],
       "readings": [
-        {"photo": "p023 panel on mat", "method": "single-view focal from mat homography", "values": [1409, 1463]},
-        {"photo": "p023 cake on mat", "method": "focal minimising circle-fit residual of the cake rim", "best": [1400, 1442]}
+        {
+          "photo": "p023 panel on mat",
+          "method": "single-view focal from mat homography",
+          "values": [
+            1409,
+            1463
+          ]
+        },
+        {
+          "photo": "p023 cake on mat",
+          "method": "focal minimising circle-fit residual of the cake rim",
+          "best": [
+            1400,
+            1442
+          ]
+        }
       ],
       "status": "validated (two photos, two methods agree)"
     }
   },
   "parts": {
     "cake_top_diameter_mm": {
-      "value": 140.9, "range": [137.7, 143.6], "status": "estimated",
+      "value": 140.9,
+      "range": [
+        137.7,
+        143.6
+      ],
+      "status": "estimated",
       "photo": "https://discdn.gbfans.com/original/3X/f/9/f9da550e4198da1173028475b426cde6fd9a3780.jpeg",
       "post": 23,
       "method": "radial silhouette (508 of 716 rays kept), mapped to the plane of the cake top through the calibrated camera, robust circle fit; residual SD 0.08 mm",
       "uncertainty": "dominated by the cake height (41-53 mm); focal 1400-1442 changes D by < 1 mm"
     },
     "cake_height_mm": {
-      "value": 46, "range": [41, 53], "status": "estimated (single photo)",
+      "value": 46,
+      "range": [
+        41,
+        53
+      ],
+      "status": "estimated (single photo)",
       "photo": "https://discdn.gbfans.com/original/3X/f/c/fc4517a1263a2c1a8240be2d023f461352116e29.jpeg",
       "post": 23,
       "method": "near-side top rim (y=1015) and base on mat (y=1177) at x=946; camera from mat homography (64 crossings, RMS 0.52 mm); height range spans focal 1500-1850"
     },
     "cyclotron_rear_panel_outer_diameter_mm": {
-      "value": 262, "range": [260, 264], "status": "estimated (single photo)",
+      "value": 262,
+      "range": [
+        260,
+        264
+      ],
+      "status": "estimated (single photo)",
       "photo": "https://discdn.gbfans.com/original/3X/e/8/e8edbb8466fde02fd344ada49651341639b1916d.jpeg",
       "post": 23,
       "method": "8 edge points read at 3x zoom on the left, right and top arcs, mapped to the mat through the calibrated camera (z 0-6 mm), circle fit; residuals within 1.1 mm"
@@ -37,17 +96,69 @@
   },
   "hasbro_photos": {
     "img1_red_hose_width_px": {
-      "value": 11.6, "readings": {"upper red, x 990-1050": [11.8, 11.7, 11.9, 11.7, 11.4, 11.3, 11.6], "lower red, x 1000-1040": [11.1, 11.1, 11.4, 11.5]},
+      "value": 11.6,
+      "readings": {
+        "upper red, x 990-1050": [
+          11.8,
+          11.7,
+          11.9,
+          11.7,
+          11.4,
+          11.3,
+          11.6
+        ],
+        "lower red, x 1000-1040": [
+          11.1,
+          11.1,
+          11.4,
+          11.5
+        ]
+      },
       "method": "half-maximum edges on the red channel, 5 parallel profiles per point",
       "photo": "https://cdn.media.amplience.net/i/hasbropulse/G19145L00_1.png"
     },
     "img1_scale_mm_per_px": {
-      "value": 0.517, "status": "PROVISIONAL: single reference (hose_6mm), not yet validated against a second independent reference",
+      "value": 0.517,
+      "status": "REJECTED as primary scale: implies 874 mm front height, against 570-640 mm from two worn-pack photos scaled by head length. The measured red tubes are probably not the 6 mm hoses gbrich refers to (or 6 mm is not their size).",
       "derivation": "6 mm / 11.6 px"
+    },
+    "img3_worn_side": {
+      "photo": "https://cdn.media.amplience.net/i/hasbropulse/G19145L00_3.png",
+      "head_length_px": 355,
+      "head_points": "glabella x=1247 (y~220), back of head x~892",
+      "board_edge_px": 1073,
+      "board_points": "top rear corner (770,400) to bottom (550,1450)",
+      "board_height_mm_uncorrected": 614,
+      "board_height_mm": {
+        "value": 595,
+        "range": [
+          545,
+          640
+        ]
+      },
+      "depth_correction": "board's near edge ~170 mm closer to camera than the head's midline; /1.04-1.08 for camera 2.5-4 m",
+      "status": "estimated"
+    },
+    "img2_worn_back": {
+      "photo": "https://cdn.media.amplience.net/i/hasbropulse/G19145L00_2.png",
+      "head_length_px": 375,
+      "head_points": "glabella x~712, back of head x~1087",
+      "pack_front_height_px": 1227,
+      "pack_points": "shell top y~409 to lid bottom y~1636",
+      "pack_front_height_mm": {
+        "value": 590,
+        "range": [
+          570,
+          610
+        ],
+        "plus_population_sd_pct": 3.6
+      },
+      "depth_correction": "pack front ~350 mm closer than head midline; factor 1.10-1.16 for camera 2.5-4 m",
+      "status": "estimated"
     }
   },
   "open_issues": [
-    "Absolute scale of the Hasbro product photos rests on the stated 6 mm hose only. It implies an overall front height of about 880 mm, which needs a second, independent check before the general arrangement can be drawn as more than provisional.",
-    "Candidate second references: the 262 mm rear panel or 141 mm cake carried into Hasbro image 7 (needs a depth correction), or one tape-measure reading of the pack by an owner."
+    "Primary scale now from human head length in two worn-pack photos: pack front height about 590 mm (range 545-640). Needs a third, independent check (tape measure by an owner, or a mat-measured part carried into a Hasbro photo) before drawing.",
+    "Identify which tubes on the 1984 pack are the 6 mm hoses gbrich refers to; measure those instead."
   ]
 }
