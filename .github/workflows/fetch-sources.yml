@@ -1,0 +1,27 @@
+name: fetch-sources
+# Downloads reference photos and post text for measurement to the sources-cache
+# branch. That branch is a temporary working cache and is deleted after use; the
+# files are third-party material and are not part of the guide.
+on:
+  push:
+    branches: [fetch-sources]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch
+        run: python .github/scripts/fetch_sources.py
+      - name: Commit to sources-cache
+        run: |
+          git config user.name "fetch-sources bot"
+          git config user.email "actions@users.noreply.github.com"
+          git checkout --orphan sources-cache
+          git rm -rq --cached .
+          git add sources
+          git commit -qm "Reference cache $(date -u +%FT%TZ)"
+          git push -f origin sources-cache
