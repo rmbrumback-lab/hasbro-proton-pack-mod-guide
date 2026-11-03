@@ -20,7 +20,7 @@ for q in Path(".github/forum_queries.txt").read_text().splitlines():
         try:
             d = get(f"{B}/search.json?q={urllib.parse.quote(q)}&page={page}")
         except Exception as e:
-            print("FAIL", q, e); break
+            print("FAIL", q, e); time.sleep(30); break
         posts = d.get("posts", [])
         for t in d.get("topics", []):
             topics[t["id"]] = t.get("title")
@@ -28,10 +28,13 @@ for q in Path(".github/forum_queries.txt").read_text().splitlines():
         print(q, page, len(posts))
         if len(posts) < 50:
             break
-        time.sleep(1)
-    time.sleep(1)
+        time.sleep(6)
+    time.sleep(6)
 (out / "results.json").write_text(json.dumps({"results": results, "topics": topics}, indent=1))
-ids = sorted({r["topic_id"] for v in results.values() for r in v})
+extra = [int(x) for x in Path(".github/forum_topics.txt").read_text().split()] if Path(".github/forum_topics.txt").exists() else []
+kw = ("haslab", "hasbro", "spengler", "1984 pack", "plasma")
+ids = sorted(set(extra) | {r["topic_id"] for v in results.values() for r in v
+                           if any(k in (topics.get(r["topic_id"]) or "").lower() for k in kw)})
 print(len(ids), "topics")
 for tid in ids:
     try:
@@ -49,4 +52,4 @@ for tid in ids:
         print("topic", tid, len(posts))
     except Exception as e:
         print("FAIL topic", tid, e)
-    time.sleep(0.7)
+    time.sleep(1.5)
