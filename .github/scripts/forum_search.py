@@ -38,10 +38,18 @@ for q in Path(".github/forum_queries.txt").read_text().splitlines():
         time.sleep(6)
     time.sleep(6)
 (out / "results.json").write_text(json.dumps({"results": results, "topics": topics}, indent=1))
-extra = [int(x) for x in Path(".github/forum_topics.txt").read_text().split()] if Path(".github/forum_topics.txt").exists() else []
+import os
+extra = [int(x) for x in Path(".github/forum_topics.txt").read_text().split()] if Path(".github/forum_topics.txt").exists() and not os.environ.get("NO_EXTRA") else []
 kw = ("haslab", "hasbro", "spengler", "1984 pack", "plasma")
-ids = sorted(set(extra) | {r["topic_id"] for v in results.values() for r in v
-                           if any(k in (topics.get(r["topic_id"]) or "").lower() for k in kw)})
+if os.environ.get("ALL_RESULTS"):
+    # every topic with a matching post, ranked by number of hits, capped
+    from collections import Counter
+    hits = Counter(r["topic_id"] for v in results.values() for r in v)
+    found = [t for t, _ in hits.most_common(int(os.environ.get("MAX_TOPICS", "80")))]
+else:
+    found = [r["topic_id"] for v in results.values() for r in v
+             if any(k in (topics.get(r["topic_id"]) or "").lower() for k in kw)]
+ids = sorted(set(extra) | set(found))
 print(len(ids), "topics")
 errs = []
 for tid in ids:

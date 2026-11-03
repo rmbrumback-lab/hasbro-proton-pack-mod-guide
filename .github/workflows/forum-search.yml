@@ -14,6 +14,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: python .github/scripts/forum_search.py
+        env:
+          ALL_RESULTS: "1"
+          NO_EXTRA: "1"
+          MAX_TOPICS: "80"
       - run: |
           git config user.name "fetch-sources bot"
           git config user.email "actions@users.noreply.github.com"
