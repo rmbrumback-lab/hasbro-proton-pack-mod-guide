@@ -43,9 +43,10 @@ kw = ("haslab", "hasbro", "spengler", "1984 pack", "plasma")
 ids = sorted(set(extra) | {r["topic_id"] for v in results.values() for r in v
                            if any(k in (topics.get(r["topic_id"]) or "").lower() for k in kw)})
 print(len(ids), "topics")
+errs = []
 for tid in ids:
     try:
-        d = get(f"{B}/t/{tid}.json?print=true")
+        d = get(f"{B}/t/{tid}.json")
         posts = d["post_stream"]["posts"]
         stream = d["post_stream"].get("stream", [])
         have = {p["id"] for p in posts}
@@ -59,4 +60,6 @@ for tid in ids:
         print("topic", tid, len(posts))
     except Exception as e:
         print("FAIL topic", tid, e)
+        errs.append({"topic": tid, "error": repr(e), "body": getattr(e, "read", lambda: b"")()[:300].decode("utf-8", "replace")})
     time.sleep(3)
+(out / "errors.json").write_text(json.dumps(errs, indent=1))

@@ -23,7 +23,7 @@ from collections import defaultdict
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-PAGE = ROOT / "docs" / "wiki" / "hasbro-1984-proton-pack-modding.md"
+PAGE = ROOT / "docs" / "wiki" / "hasbro-1984-proton-pack.md"
 CHECKLIST = ROOT / "docs" / "VERIFICATION.md"
 THREAD = "https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236"
 RAW = "https://raw.githubusercontent.com/rmbrumback-lab/hasbro-proton-pack-mod-guide/main"

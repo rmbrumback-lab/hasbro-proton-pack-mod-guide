@@ -1,11 +1,19 @@
 {
-  "title": "Hasbro 1984 Proton Pack Modding",
-  "proposed_url": "https://www.gbfans.com/wiki/equipment/proton-pack/hasbro-1984-modding",
-  "proposed_parent": "Equipment → Proton Pack",
+  "title": "Hasbro 1984 Proton Pack",
+  "proposed_url": "https://www.gbfans.com/wiki/equipment/proton-pack/hasbro-1984",
+  "proposed_parent": "Equipment \u2192 Proton Pack",
   "location_confirmed_by_aj_quick": false,
-  "tags": ["proton pack", "hasbro", "haslab", "neutrona wand", "gpstar", "mods", "tutorial"],
-  "edit_summary": "New page: community guide to modding the Hasbro 1984 Proton Pack and Neutrona Wand, compiled from gbrich's overhaul thread with every step footnoted to its post",
-  "version": "0.2",
+  "tags": [
+    "proton pack",
+    "hasbro",
+    "plasma series",
+    "blueprint",
+    "measurements",
+    "disassembly",
+    "mods"
+  ],
+  "edit_summary": "New page: the Hasbro 1984 Proton Pack, with a measured blueprint of the whole pack, differences from the film props, and community disassembly and modification notes",
+  "version": "0.3",
   "source_thread": "https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236",
   "source_posts_through": 91,
   "repository": "https://github.com/rmbrumback-lab/hasbro-proton-pack-mod-guide"

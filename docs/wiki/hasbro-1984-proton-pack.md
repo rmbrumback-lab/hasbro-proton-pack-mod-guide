@@ -1,18 +1,12 @@
-The **Hasbro 1984 Proton Pack** is Hasbro's full-size *Ghostbusters* (1984) replica pack, sold alongside the 1984 Neutrona Wand. It shares much of its tooling with the earlier HasLab Spengler's Proton Pack, and builders on GBFans.com have been taking both apart to make them more screen accurate, more durable and fully interactive.
+The **Hasbro 1984 Proton Pack** (Hasbro Pulse item G19145L00) is Hasbro's full-size *Ghostbusters* (1984) replica Proton Pack, sold in the Plasma Series alongside the 1984 Neutrona Wand. Hasbro describes it as a 1:1-scale replica with 25 LEDs, movie sound effects, a removable cyclotron and a removable ribbon cable, powered by USB-C, for ages 14 and up.[^hasbro] It shares much of its tooling with the earlier HasLab Spengler's Proton Pack, with some parts carried over from the *Afterlife* design.[^p4]
 
-This page collects the techniques, measurements and lessons that GBFans members have reported for the 1984 pack and wand. Most of it comes from gbrich's build thread *Hasbro 1984 Proton Pack BIG Overhaul and Customisation*, with contributions from nomake-wan, spooky, mcspain, cantignie and others.[^thread] Every step is credited to the post it came from, so you can read the original with photos. The blueprint drawings on this page are new renderings of the measurements builders reported. Values that were calculated rather than measured are shown in light blue italics, and anything nobody measured is marked as schematic.
+This page documents the pack itself: a measured **blueprint** of the whole pack, the parts it is made of, and how it differs from the 1984 film props. Two further sections cover **taking it apart** and **modifying it**, compiled from GBFans members' build threads, chiefly gbrich's *Hasbro 1984 Proton Pack BIG Overhaul and Customisation*.[^thread]
 
-**How to read this page:** these are methods that individual builders used on their own packs, not manufacturer instructions. Steps marked **reported** come from one builder. Steps marked **corroborated** were confirmed by a second builder. Prices, stock and lead times are **as reported at the time** and will change. Take your time, test-fit before you glue or paint, and expect to void any warranty.
+**How to read this page:** Hasbro has not published dimensions for the pack, so every dimension here is either **measured** (by a person with a tool), **estimated** from photographs by the method described under *How the blueprint is made*, or **derived** from other values. Each value carries its status, range and source. Steps in the disassembly and modification sections are methods individual builders used on their own packs: **reported** means one builder, **corroborated** means a second builder confirmed it.
 
-## Before you start
+## The pack
 
-- **Expect glue as well as screws.** Both the pack and the wand combine screws with factory glue in many places, including hidden screws behind plugs and glued-on nuts.[^p52][^p53]
-- **Heat softens the glue.** A hairdryer or heat gun on a low setting loosens glued joints. Use enough heat to soften the glue but not so much that the plastic warps.[^p6][^p46]
-- **Pry with wide, flat tools.** Plastic automotive trim tools spread the load and avoid bending or marking the plastic. A screwdriver concentrates the force and is more likely to damage parts.[^p1][^p15]
-- **Bag and label as you go.** There are many screws. Bagging the hardware for each sub-assembly makes reassembly much easier.[^p4]
-- **Photograph the electronics first.** Take a photo of the stock board and its connectors before you unplug anything. The board's reverse side is labeled for each connector.[^p9][^p10][^p11]
-
-## Known accuracy differences
+### Differences from the 1984 film props
 
 Builders have pointed out several places where the 1984 pack differs from the 1984 film props, mostly because parts carried over from the HasLab Afterlife pack:
 
@@ -22,7 +16,42 @@ Builders have pointed out several places where the 1984 pack differs from the 19
 - **Injector tubes:** the stock tubes are rippled, whereas the Afterlife hero pack's are straight (**reported**).[^p82]
 - **Motherboard lip:** the stock motherboard wraps around the base of the shell, so the lowest centimeter of the shell has to be flat, which isn't screen accurate (**reported**).[^p55]
 
-## Disassembly
+## Blueprint
+
+### How the blueprint is made
+
+No manufacturer drawings exist, so the blueprint is reconstructed from photographs and checked against parts of known size:
+
+- **Parts measured on a cutting mat.** Several stock parts were photographed by gbrich lying on a cutting mat with a printed 1 cm grid.[^p23] Each photo is calibrated from the grid itself (hundreds of grid crossings located to a fraction of a pixel), the camera position is recovered, and the part's height above the mat is corrected for.
+- **The whole pack from Hasbro's product photos.** The general arrangement is measured on Hasbro's near-orthographic product photos.[^hasbro] Their scale is set by features of known size in the same photo and cross-checked between independent references: replica parts with documented real-world sizes (the crank knob and the tubing),[^wikicrank][^wikilegris] and the wearers' head length in the worn-pack photos, against US Army anthropometric survey averages.[^ansur]
+- **Validation.** A value is drawn only when at least two independent references agree within their uncertainty. Anything that disagrees is flagged, not averaged away.
+
+### Overall size
+
+- **Overall height** (top of the gearbox to the bottom of the lower cyclotron disc): about **590 mm** (23¼ in), **estimated**, range about ±5%. Six independent references give 547–672 mm, with the rigid crank knob (620 mm) and two head-length estimates (590 and 595 mm) carrying most weight.[^hasbro][^wikicrank][^wikilegris][^ansur]
+- **Width and depth:** in progress.
+
+### Cyclotron
+
+- **Rear panel outer diameter:** **262 mm**, **estimated**, range 260–264 mm. Measured on a cutting mat.[^p23]
+- **Cake top diameter:** **141 mm**, **estimated**, range 138–144 mm. Measured on a cutting mat, with a height correction.[^p23]
+- **Cake height:** **46 mm**, **estimated**, range 41–53 mm. From a second cutting-mat photo.[^p23]
+- **Lid, lenses and emitters:** in progress.
+
+### General arrangement
+
+Front, back and side views with component positions are in progress. They will be drawn once the overall scale is confirmed by a further independent reference.
+
+## Taking it apart
+
+### Before you start
+
+- **Expect glue as well as screws.** Both the pack and the wand combine screws with factory glue in many places, including hidden screws behind plugs and glued-on nuts.[^p52][^p53]
+- **Heat softens the glue.** A hairdryer or heat gun on a low setting loosens glued joints. Use enough heat to soften the glue but not so much that the plastic warps.[^p6][^p46]
+- **Pry with wide, flat tools.** Plastic automotive trim tools spread the load and avoid bending or marking the plastic. A screwdriver concentrates the force and is more likely to damage parts.[^p1][^p15]
+- **Bag and label as you go.** There are many screws. Bagging the hardware for each sub-assembly makes reassembly much easier.[^p4]
+- **Photograph the electronics first.** Take a photo of the stock board and its connectors before you unplug anything. The board's reverse side is labeled for each connector.[^p9][^p10][^p11]
+
 
 ### Motherboard
 
@@ -81,13 +110,17 @@ The rear handle is screwed and glued to its ring pieces.[^p46] The end ring is a
 
 The small knob behind the heat sink is very hard to remove. gbrich cut it off, following RSquad911's video, then drilled the stub and fitted the aluminum replacement with an M3 bolt (**reported**).[^p46][^p58][^p82]
 
-## Exterior hardware
+## Modifying the pack
 
-### Brass elbows and Legris fittings
+The upgrades GBFans members have made, grouped by area. Prices, stock and lead times are as reported at the time and will change.
+
+### Exterior hardware
+
+#### Brass elbows and Legris fittings
 
 Swapping the rubber fittings for brass elbows and Legris fittings makes one of the biggest visible differences.[^p4][^p82] The stock holes are too small. gbrich needed about a 9 mm hole and widened 8 mm holes step by step.[^p4] The beamline tube is the only spot where you can pull the rubber part and drop in a brass elbow without modification. The straight fittings have holes that need drilling out.[^p54]
 
-### Real bolts in place of molded ones
+#### Real bolts in place of molded ones
 
 1. Cut the molded fake bolts off with side cutters, then trim flush with a sharp blade. Take care not to gouge the plastic around them. This is easier with the HGA removed.[^p22][^p29]
 2. Drill a pilot hole slightly smaller than the bolt shank so the bolt threads into the plastic.[^p22]
@@ -96,11 +129,11 @@ Swapping the rubber fittings for brass elbows and Legris fittings makes one of t
 
 A video, *Hasbro Ghostbusters '84 Proton Pack: Adding Real Bolts and Ribbon Cable Clamp*, covers the same job.[^p22]
 
-### Ribbon cable and clamp
+#### Ribbon cable and clamp
 
 gbrich replaced the stock ribbon cable first with a more accurate one from a Spirit Halloween pack, then with a C&A Props ribbon cable and clamp.[^p68] The C&A clamp mounts with two new 3 mm holes drilled just right of the stock square clamp holes, using the supplied hardware.[^p73]
 
-### Ion arm end cap
+#### Ion arm end cap
 
 The stock end cap is a push fit and can fall off. gbrich drilled two 3 mm holes through the centers of the molded fake bolts into the ion arm and fitted M3 × 20 mm bolts, removing the top rear silver screw that was in the way.[^p73] An aluminum ion arm is the alternative.[^p73]
 
@@ -109,17 +142,17 @@ The stock end cap is a push fit and can fall off. gbrich drilled two 3 mm holes 
 *Drawing S5, schematic: hole and bolt sizes from post #73, which also has a photo of the result.[^p73]*
 
 
-### Clippard valve
+#### Clippard valve
 
 The stock valve's mounting holes don't line up with a replica Clippard R-331 or R-701.[^p53] On the wand, gbrich ground the locating nub off the base of a replica valve with a Dremel rather than drilling into the wand body.[^p77]
 
-### Other details
+#### Other details
 
 - **Bumper:** silver screws replaced with black screws and brass washers.[^p32]
 - **Hex hardware:** silver screws swapped for black M3 hex bolts, a better red power switch, and a proper strain relief on the blue hose.[^p12]
 - **Filler and beamline tubes:** 3D-printed bases and caps, with weld beads modeled in black epoxy (**reported**).[^p81][^p82]
 
-### Hole and hardware sizes
+#### Hole and hardware sizes
 
 Every drill and fastener size reported in the thread, collected on one sheet. Printed at 100% on US Letter, the circles are true size, so you can hold a drill bit against them. Check the 50 mm bar first.[^p4][^p68][^p73]
 
@@ -127,7 +160,7 @@ Every drill and fastener size reported in the thread, collected on one sheet. Pr
 
 *Drawing S7, scale 1:1. Each size is labeled with the post it comes from.*
 
-## Aluminum motherboard and ALICE frame
+### Aluminum motherboard and ALICE frame
 
 gbrich fitted a Redman Studio Workshop aluminum motherboard. With the GPStar speaker installed, he drilled seven 5 mm holes in the board over the lower part of the speaker (not through it) so the sound isn't muffled. The DANGER sticker covers two of the holes and the sound is still clear. He painted the drilled edges black and hot-glued N-filter mesh behind the holes.[^p68]
 
@@ -147,25 +180,25 @@ Gaps he found in Redman's instructions (**reported**):[^p68]
 
 gbrich's ALICE frame is a Rothco LC-1 reproduction that arrived black, so it needed no paint. mcspain's is a genuine olive LC-2 that he plans to paint.[^p71][^p72]
 
-## Inner cyclotron
+### Inner cyclotron
 
 gbrich described the inner cyclotron as the weakest-looking part of the 1984 pack, so it gets the most attention.[^p26]
 
-### Painting
+#### Painting
 
 - gbrich primed and sprayed the parts with Jenolite paints: Metallic Gun Metal Grey for the enclosure (he chose it over screen-accurate black for depth), Metallic Copper for accent parts, and Metallic Chrome for the silver parts, which he describes as a bright silver like anodized aluminum.[^p2][^p3]
 - Detailed masking lets some paint bleed through. Respraying the whole section in the second color is an easy fallback.[^p7]
 - Molotow One4All paint pens disappointed him for the molded wires: the nibs were too wide, coverage was poor and the colors were off. Tamiya brush paints worked better.[^p23]
 - He used a Vallejo wash for grime, then washed most of it back off for a fresh-build look.[^p12]
 
-### Real wires
+#### Real wires
 
 The molded wires on the cake and rear panel look plastic. Two approaches have been reported:
 
 - **Overlay:** gbrich glued 1.8 mm (20 AWG) silicone hook-up wire over the molded wires, letting each step set for several hours. It took about a week. Small flaws show up close but disappear from about two feet away.[^p32][^p33]
 - **Replace:** mcspain ground the painted wires away with a Dremel, drilled holes, laid real wires in, and fixed them with hot glue.[^p47]
 
-### Cable ends
+#### Cable ends
 
 For the black cables inside the lid, gbrich sliced off the molded ends and pushed in real metal BNC connectors. A 5.5 mm hole drilled into each cable stub gives a friction fit with no glue. A 6 mm hole also works with glue (**reported**).[^p12]
 
@@ -174,7 +207,7 @@ For the black cables inside the lid, gbrich sliced off the molded ends and pushe
 *Drawing S4, schematic: only the drill sizes are documented.[^p12]*
 
 
-### Rebuilding the emitter tubes
+#### Rebuilding the emitter tubes
 
 gbrich's working replacement is clear acrylic tube, **14 mm OD × 12 mm ID**, cut to **23 mm** (the insert is 22 mm long, leaving 1 mm of play).[^p23][^p32] An 11 mm ID tube is too small for the inserts,[^p12] and a 15 mm OD tube didn't fit the lid housing.[^p23]
 
@@ -188,17 +221,17 @@ gbrich's working replacement is clear acrylic tube, **14 mm OD × 12 mm ID**, cu
 *Drawing S1, scale 3:1: tube sizes from gbrich's posts #23 and #32. Compare with his photos of the finished tubes in post #32.[^p32]*
 
 
-### Switch plate
+#### Switch plate
 
 The blank switch plate can be cut out by repeatedly scoring along its recessed edges from the outside, which took gbrich about 10 minutes. He followed RSquad911's video.[^p49] The GPStar inner cyclotron light board didn't fit the stock switch panel, so he printed a replacement.[^p46]
 
-### Cake
+#### Cake
 
 The stock cake is hard to separate without damage and diffuses the light, so gbrich printed TacoBelli's replacement cake, with a lid window cut from 3 mm frosted acrylic and fixed with M2.5 black button-head screws.[^p49][^p62] He didn't glue the new wires permanently, so the lid can come off to reach the LED ring.[^p68] A printed ring centers the LED ring in the cake.[^p49] Leave printed parts out of direct sun: one cake top warped.[^p44]
 
-## Electronics
+### Electronics
 
-### GPStar kit
+#### GPStar kit
 
 gbrich installed a GPStar II base kit for the Hasbro pack and wand. nomake-wan, one of the GPStar developers, answered questions in the thread.[^p1][^p37]
 
@@ -207,19 +240,19 @@ gbrich installed a GPStar II base kit for the Hasbro pack and wand. nomake-wan, 
 - **Warranty:** two pogo pins snapped off gbrich's cyclotron bypass. GPStar parts carry a two-year warranty. Contact GPStar with the order number. nomake-wan said replacements usually ship the next day.[^p39][^p41][^p42]
 - **Quick disconnect:** the base kit has no quick-release connector between the pack and wand. gbrich added Wago connectors tucked inside the loom.[^p49] He also designed a custom loom connector to replace the Hasbro screw fitting.[^p33]
 
-### Inner cyclotron lights
+#### Inner cyclotron lights
 
 The GPStar inner cyclotron LED kit is an L-shaped board with eight blinking lights that plugs into the GPStar board and fits the switch panel, with an LED ring daisy-chained into the cake. gbrich bought the version from Frutto Technology in the UK for easier shipping. Frutto also sells a 36-LED coil board.[^p62]
 
-### Power
+#### Power
 
 - gbrich warns that a TalentCell or similar battery is almost always needed with the GPStar kit. The power cell panel may need modifying or reprinting to reach it.[^p70]
 - His 3000 mAh TalentCell sits in the snack compartment and ran the pack all day at MCM Comic Con London. He didn't use the wand that day, so its draw is untested.[^p72][^p88]
 - mcspain is considering a larger battery on the ALICE frame instead, which the GPStar Extreme kit includes mounting hardware for.[^p71]
 
-## Neutrona wand
+### Neutrona wand
 
-### De-weathering
+#### De-weathering
 
 gbrich removed the factory weathering, decals and dry transfers (**reported**):[^p46]
 
@@ -229,7 +262,7 @@ gbrich removed the factory weathering, decals and dry transfers (**reported**):[
 4. Wipe with clean microfiber cloths until the haze is gone.
 5. Optionally finish with an automotive vinyl and rubber dressing, but only after applying new decals.
 
-### Parts and fitting
+#### Parts and fitting
 
 - **Knobs:** gbrich bought aluminum knobs from WorkshopProps on Etsy, which supplies brackets and bolts if you name the wand. On the left side, the supplied mounts hit the GPStar electronics, so he reused the stock plastic brackets and shortened the new countersunk bolts flush with a Dremel, secured with threadlock.[^p58][^p82] Mack's Factory sells the small lever retainer knob separately (part NW103R).[^p59]
 - **Banjos:** for Mack's Factory banjos, gbrich widened the hole in the wand wing with a 4–4.5 mm bit until the screw threaded in by hand, then used red threadlock. The banjo still turns freely.[^p79]
@@ -237,7 +270,7 @@ gbrich removed the factory weathering, decals and dry transfers (**reported**):[
 - **Decals:** Mack's Factory stickers and Charlesworth Dynamics dry transfers, on both pack and wand.[^p49][^p80]
 - **Weathering:** a Molotow Liquid Chrome pen on edges and corners, and a Tamiya brown dry-brushed on the handle high points.[^p49]
 
-## 3D printing and finishing
+### 3D printing and finishing
 
 gbrich printed many replacement parts (switch plate, cable guides, cake, loom connector, heat sink and stand) on a Bambu Lab A1:[^p35][^p64]
 
@@ -251,7 +284,7 @@ Community files builders used:
 - **BrittanyMonreal:** plasma gate, fuse box and power cell door (Thingiverse). mcspain notes the plasma gate design is not canon.[^p47][^p85]
 - **Pack stand:** gbrich's CGTrader stand was too shallow for an ALICE frame on spacers, so he extended two parts by 7.5 cm. Test-fit before painting.[^p85][^p91]
 
-## Wearing the pack
+### Wearing the pack
 
 From gbrich's first full day at a convention (**reported**):[^p88]
 
@@ -265,7 +298,7 @@ From gbrich's first full day at a convention (**reported**):[^p88]
 
 - On his stand, the 3 mm neoprene pads that touch the pack took indents from it, though the pack itself was left unmarked. He may switch to 3 mm black felt.[^p91]
 
-## Suppliers and lead times
+### Suppliers and lead times
 
 These reports date from September to October 2026 and will change.
 
@@ -292,7 +325,6 @@ This page is built from the work and generosity of:
 Compiled by ryan-brumback, with AI assistance (Anthropic's Claude) for organizing the thread. Blueprint drawings by ryan-brumback, rendered from the measurements in the thread; they are new drawings, not copies of members' photos. Every step was checked against the original post.
 
 ## References
-
 [^thread]: gbrich and others, [*Hasbro 1984 Proton Pack BIG Overhaul and Customisation*](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236), GBFans.com forum, July–November 2026.
 [^p1]: gbrich, [post #1](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/1), 22 July 2026.
 [^p2]: gbrich, [post #2](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/2), 23 July 2026.
@@ -353,3 +385,8 @@ Compiled by ryan-brumback, with AI assistance (Anthropic's Claude) for organizin
 [^p85]: gbrich, [post #85](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/85), 20 October 2026.
 [^p88]: gbrich, [post #88](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/88), 27 October 2026.
 [^p91]: gbrich, [post #91](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/91), 2 November 2026.
+[^hasbro]: Hasbro, [*Ghostbusters Plasma Series Proton Pack (1984)*](https://www.hasbropulse.com/product/ghostbusters-plasma-series-proton-pack-1984/G19145L00), Hasbro Pulse product page and product photos, accessed 3 November 2026.
+[^wikicrank]: GBFans.com Wiki, [*Crank Knob*](https://www.gbfans.com/wiki/equipment/proton-pack/crank-knob): MS91528 knob, 1-1/4 in diameter.
+[^wikilegris]: GBFans.com Wiki, [*Legris*](https://www.gbfans.com/wiki/equipment/proton-pack/legris): red 5/32 in tube from the HGA and cyclotron elbows to the attenuator.
+[^ansur]: The Ergonomics Center of North Carolina, [*Anthropometric Summary Data Tables*](https://www.ergocenter.ncsu.edu/wp-content/uploads/sites/18/2017/09/Anthropometric-Summary-Data-Tables.pdf) (2017), citing Gordon et al., *2012 Anthropometric Survey of U.S. Army Personnel* (ANSUR II): head length, men 50th percentile 7.87 in, SD 0.28 in.
+

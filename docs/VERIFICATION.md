@@ -49,11 +49,13 @@ Cited posts: 59. Verified: 14.
 - [x] Verified
 - Note: checked 2026-11-02 against the full post text (thread page 1 was read in full, not summarized).
 
-> **Bag and label as you go.** There are many screws. Bagging the hardware for each sub-assembly makes reassembly much easier.
+> The **Hasbro 1984 Proton Pack** (Hasbro Pulse item G19145L00) is Hasbro's full-size *Ghostbusters* (1984) replica Proton Pack, sold in the Plasma Series alongside the 1984 Neutrona Wand. Hasbro describes it as a 1:1-scale replica with 25 LEDs, movie sound effects, a removable cyclotron and a removable ribbon cable, powered by USB-C, for ages 14 and up. It shares much of its tooling with the earlier HasLab Spengler's Proton Pack, with some parts carried over from the *Afterlife* design.
 >
 > **Hose strain reliefs:** the 6 mm red and blue hoses use rubber strain reliefs, which match the Afterlife pack. The 1984 packs used short pieces of thin split loom instead (**reported**).
 >
 > **Ion arm elbow:** the brass elbow on top of the ion arm connects to the end cap, which also matches Afterlife. On the 1984 packs it connects further back (**reported**).
+>
+> **Bag and label as you go.** There are many screws. Bagging the hardware for each sub-assembly makes reassembly much easier.
 >
 > Swapping the rubber fittings for brass elbows and Legris fittings makes one of the biggest visible differences. The stock holes are too small. gbrich needed about a 9 mm hole and widened 8 mm holes step by step. The beamline tube is the only spot where you can pull the rubber part and drop in a brass elbow without modification. The straight fittings have holes that need drilling out.
 >
@@ -201,6 +203,14 @@ Cited posts: 59. Verified: 14.
 
 - [ ] Verified
 
+> **Parts measured on a cutting mat.** Several stock parts were photographed by gbrich lying on a cutting mat with a printed 1 cm grid. Each photo is calibrated from the grid itself (hundreds of grid crossings located to a fraction of a pixel), the camera position is recovered, and the part's height above the mat is corrected for.
+>
+> **Rear panel outer diameter:** **262 mm**, **estimated**, range 260–264 mm. Measured on a cutting mat.
+>
+> **Cake top diameter:** **141 mm**, **estimated**, range 138–144 mm. Measured on a cutting mat, with a height correction.
+>
+> **Cake height:** **46 mm**, **estimated**, range 41–53 mm. From a second cutting-mat photo.
+>
 > The clear emitter tubes are glued to their caps and are not designed to come apart. Prying the caps off cracked two tubes for gbrich. His eventual method sacrifices the clear tubes but saves the caps and the black inserts (**reported**):
 >
 > Molotow One4All paint pens disappointed him for the molded wires: the nibs were too wide, coverage was poor and the colors were off. Tamiya brush paints worked better.
