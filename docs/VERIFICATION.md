@@ -18,6 +18,8 @@ Cited posts: 59. Verified: 14.
 - [x] Verified
 - Note: checked 2026-11-02 against the full post text (thread page 1 was read in full, not summarized).
 
+> **The whole pack from Hasbro's product photos.** The general arrangement is measured on Hasbro's product photos. Their scale is set by features of known size and cross-checked between independent references: replica parts with documented real-world sizes (the crank knob and the tubing), the harness webbing, and the aftermarket motherboard and ALICE frame gbrich fitted to his pack. The front product photo is taken from above with the pack leaning back, so its vertical distances are foreshortened by about 9%; this is measured from the cyclotron lenses (round parts that appear oval) and corrected for.
+>
 > **Pry with wide, flat tools.** Plastic automotive trim tools spread the load and avoid bending or marking the plastic. A screwdriver concentrates the force and is more likely to damage parts.
 >
 > Lever the inner and outer halves apart with plastic trim tools, working around the edge. Imperial Tech Shop's lens replacement video shows the process.
@@ -499,6 +501,12 @@ Cited posts: 59. Verified: 14.
 
 - [ ] Verified
 
+> **The whole pack from Hasbro's product photos.** The general arrangement is measured on Hasbro's product photos. Their scale is set by features of known size and cross-checked between independent references: replica parts with documented real-world sizes (the crank knob and the tubing), the harness webbing, and the aftermarket motherboard and ALICE frame gbrich fitted to his pack. The front product photo is taken from above with the pack leaning back, so its vertical distances are foreshortened by about 9%; this is measured from the cyclotron lenses (round parts that appear oval) and corrected for.
+>
+> **Overall height** (top to bottom of the motherboard): about **665 mm** (26¼ in), **estimated**, range 640–690 mm. Six references agree: the crank knob (681 mm) and thin red tube (641 mm) in the front photo after the foreshortening correction, the shoulder strap and waist belt webbing in the straight-on back photo (652 and 678 mm, assuming standard 1½ in and 2 in webbing), the Redman aluminium motherboard ("approx. 15 x 27 in", 686 mm) and the Rothco ALICE frame lying on that board (640–675 mm). The HasLab pack's shipping box, 26¾ in tall, is an upper bound.
+>
+> **Width of the motherboard:** about **326 mm** (12¾ in), **estimated**, range 314–338 mm, from the back photo's width-to-height ratio (0.490) and the front photo's horizontal scale. The 12½ in ALICE frame sits just inside it.
+>
 > gbrich replaced the stock ribbon cable first with a more accurate one from a Spirit Halloween pack, then with a C&A Props ribbon cable and clamp. The C&A clamp mounts with two new 3 mm holes drilled just right of the stock square clamp holes, using the supplied hardware.
 >
 > Every drill and fastener size reported in the thread, collected on one sheet. Printed at 100% on US Letter, the circles are true size, so you can hold a drill bit against them. Check the 50 mm bar first.
@@ -537,6 +545,8 @@ Cited posts: 59. Verified: 14.
 
 - [ ] Verified
 
+> **The whole pack from Hasbro's product photos.** The general arrangement is measured on Hasbro's product photos. Their scale is set by features of known size and cross-checked between independent references: replica parts with documented real-world sizes (the crank knob and the tubing), the harness webbing, and the aftermarket motherboard and ALICE frame gbrich fitted to his pack. The front product photo is taken from above with the pack leaning back, so its vertical distances are foreshortened by about 9%; this is measured from the cyclotron lenses (round parts that appear oval) and corrected for.
+>
 > gbrich's ALICE frame is a Rothco LC-1 reproduction that arrived black, so it needed no paint. mcspain's is a genuine olive LC-2 that he plans to paint.
 >
 > His 3000 mAh TalentCell sits in the snack compartment and ran the pack all day at MCM Comic Con London. He didn't use the wand that day, so its draw is untested.

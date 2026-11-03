@@ -1,17 +1,17 @@
-# Hasbro Proton Pack Modding Guide
+# Hasbro 1984 Proton Pack: Blueprint and Reference
 
-A community-sourced, fully attributed guide to modifying the **Hasbro 1984 Proton Pack and Neutrona Wand**, written for the [GBFans.com wiki](https://www.gbfans.com/wiki). It turns a 91-post forum build thread into a structured reference: disassembly, accuracy fixes, hardware upgrades, inner cyclotron detailing, electronics, the wand, 3D printing, and wearing the pack. Every step links to the post it came from.
+A community-sourced, fully attributed reference for the **Hasbro 1984 Proton Pack** (Hasbro Pulse G19145L00), written for the [GBFans.com wiki](https://www.gbfans.com/wiki). Its purpose is a **measured blueprint of the whole pack**, built from photographs and checked against parts of known size, with every value traced to its source. Disassembly and modification notes from a 91-post forum build thread are included as supporting sections. Every claim links to the post or page it came from.
 
-**Status:** draft v0.2, **not yet verified against the original posts**. See [Verification](#verification).
+**Status:** draft v0.4, **not yet verified against the original posts**. See [Verification](#verification).
 
 | | |
 |---|---|
-| Scope (v0.1) | Hasbro 1984 Proton Pack and Neutrona Wand |
-| Primary source | GBFans thread [Hasbro 1984 Proton Pack BIG Overhaul and Customisation](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236), posts #1–91 |
-| Wiki draft | [`docs/wiki/hasbro-1984-proton-pack-modding.md`](docs/wiki/hasbro-1984-proton-pack-modding.md), about 3,400 words, 60 posts cited |
-| Drawings | 7 blueprint sheets ([preview and attribution](docs/RENDERINGS.md), [printable PDF](docs/drawings/blueprints.pdf)) |
-| Attribution | footnote on every claim, one per post; every drawn dimension linked to its post and the forum photos of that part ([RENDERINGS.md](docs/RENDERINGS.md)); [verification checklist](docs/VERIFICATION.md) per post |
-| Next scope | HasLab Spengler's Proton Pack and Spirit Halloween packs (see [related threads](docs/SOURCES.md#related-threads-not-yet-mined)) |
+| Subject | Hasbro 1984 Proton Pack (and its Neutrona Wand, in the supporting sections) |
+| Blueprint so far | Overall height about 665 mm (640–690), motherboard width about 326 mm, cyclotron rear panel 262 mm, cake top 141 mm, cake height 46 mm; general arrangement in progress. Register: [`data/measurements.json`](data/measurements.json); method: [`docs/METHOD.md`](docs/METHOD.md) |
+| Primary sources | Hasbro product photos; GBFans thread [Hasbro 1984 Proton Pack BIG Overhaul and Customisation](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236), posts #1–91; 96 related Hasbro/HasLab forum topics |
+| Wiki draft | [`docs/wiki/hasbro-1984-proton-pack.md`](docs/wiki/hasbro-1984-proton-pack.md), about 4,200 words, 59 posts cited |
+| Drawings | 7 part sheets ([preview and attribution](docs/RENDERINGS.md), [printable PDF](docs/drawings/blueprints.pdf)); whole-pack sheets in progress |
+| Attribution | footnote on every claim; every drawn dimension linked to its post and the forum photos of that part ([RENDERINGS.md](docs/RENDERINGS.md)); [verification checklist](docs/VERIFICATION.md) per post |
 
 This guide builds directly on the work of gbrich, nomake-wan, spooky, mcspain, cantignie and other GBFans members. See **[Credits](#credits)**.
 
@@ -51,7 +51,7 @@ The GBFans wiki documents the screen-used props in detail, but it has no page on
 
 ## Drawings
 
-Seven blueprint sheets turn the reported measurements into drawings:
+Seven part sheets turn the reported measurements into drawings (whole-pack sheets will follow the general arrangement):
 
 | Sheet | Shows | Scale |
 |---|---|---|

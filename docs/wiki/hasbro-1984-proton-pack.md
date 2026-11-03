@@ -23,13 +23,15 @@ Builders have pointed out several places where the 1984 pack differs from the 19
 No manufacturer drawings exist, so the blueprint is reconstructed from photographs and checked against parts of known size:
 
 - **Parts measured on a cutting mat.** Several stock parts were photographed by gbrich lying on a cutting mat with a printed 1 cm grid.[^p23] Each photo is calibrated from the grid itself (hundreds of grid crossings located to a fraction of a pixel), the camera position is recovered, and the part's height above the mat is corrected for.
-- **The whole pack from Hasbro's product photos.** The general arrangement is measured on Hasbro's near-orthographic product photos.[^hasbro] Their scale is set by features of known size in the same photo and cross-checked between independent references: replica parts with documented real-world sizes (the crank knob and the tubing),[^wikicrank][^wikilegris] and the wearers' head length in the worn-pack photos, against US Army anthropometric survey averages.[^ansur]
+- **The whole pack from Hasbro's product photos.** The general arrangement is measured on Hasbro's product photos.[^hasbro] Their scale is set by features of known size and cross-checked between independent references: replica parts with documented real-world sizes (the crank knob and the tubing),[^wikicrank][^wikilegris] the harness webbing, and the aftermarket motherboard and ALICE frame gbrich fitted to his pack.[^p1][^p68][^p72][^redman][^rothco] The front product photo is taken from above with the pack leaning back, so its vertical distances are foreshortened by about 9%; this is measured from the cyclotron lenses (round parts that appear oval) and corrected for.
 - **Validation.** A value is drawn only when at least two independent references agree within their uncertainty. Anything that disagrees is flagged, not averaged away.
 
 ### Overall size
 
-- **Overall height** (top of the gearbox to the bottom of the lower cyclotron disc): about **590 mm** (23¼ in), **estimated**, range about ±5%. Six independent references give 547–672 mm, with the rigid crank knob (620 mm) and two head-length estimates (590 and 595 mm) carrying most weight.[^hasbro][^wikicrank][^wikilegris][^ansur]
-- **Width and depth:** in progress.
+- **Overall height** (top to bottom of the motherboard): about **665 mm** (26¼ in), **estimated**, range 640–690 mm. Six references agree: the crank knob (681 mm) and thin red tube (641 mm) in the front photo after the foreshortening correction, the shoulder strap and waist belt webbing in the straight-on back photo (652 and 678 mm, assuming standard 1½ in and 2 in webbing), the Redman aluminium motherboard ("approx. 15 x 27 in", 686 mm) and the Rothco ALICE frame lying on that board (640–675 mm).[^hasbro][^wikicrank][^wikilegris][^redman][^rothco][^p68] The HasLab pack's shipping box, 26¾ in tall, is an upper bound.[^haslabbox]
+- **Width of the motherboard:** about **326 mm** (12¾ in), **estimated**, range 314–338 mm, from the back photo's width-to-height ratio (0.490) and the front photo's horizontal scale. The 12½ in ALICE frame sits just inside it.[^hasbro][^rothco][^p68]
+- **Correction from version 0.3:** the earlier figure of 590 mm came from the front photo without the foreshortening correction. Scaling the worn-pack photos by the wearers' head length also gives about 590 mm, which would need heads about 3½ standard deviations above average; that method is set aside until the discrepancy is explained.[^ansur]
+- **Depth:** in progress.
 
 ### Cyclotron
 
@@ -40,7 +42,7 @@ No manufacturer drawings exist, so the blueprint is reconstructed from photograp
 
 ### General arrangement
 
-Front, back and side views with component positions are in progress. They will be drawn once the overall scale is confirmed by a further independent reference.
+Front, back and side views with component positions are in progress. They will be drawn to the 665 mm overall height; a tape-measure reading from an owner would confirm it.
 
 ## Taking it apart
 
@@ -311,6 +313,7 @@ These reports date from September to October 2026 and will change.
 - How long the 3000 mAh TalentCell lasts with the wand in use.[^p88]
 - Whether a 6000 mAh battery fits in the snack compartment.[^p72]
 - A printable twist-lock base for replacement emitter tubes.[^p82]
+- The pack's overall height measured with a tape: the photo estimate is 640–690 mm.[^hasbro]
 
 ## Credits
 
@@ -388,5 +391,8 @@ Compiled by ryan-brumback, with AI assistance (Anthropic's Claude) for organizin
 [^hasbro]: Hasbro, [*Ghostbusters Plasma Series Proton Pack (1984)*](https://www.hasbropulse.com/product/ghostbusters-plasma-series-proton-pack-1984/G19145L00), Hasbro Pulse product page and product photos, accessed 3 November 2026.
 [^wikicrank]: GBFans.com Wiki, [*Crank Knob*](https://www.gbfans.com/wiki/equipment/proton-pack/crank-knob): MS91528 knob, 1-1/4 in diameter.
 [^wikilegris]: GBFans.com Wiki, [*Legris*](https://www.gbfans.com/wiki/equipment/proton-pack/legris): red 5/32 in tube from the HGA and cyclotron elbows to the attenuator.
+[^redman]: Redman Studio Workshop, [*GB Proton Pack MoBo (HASLAB)*](https://reach.dog/shop/redman-studio-workshop/products/proton-pack-mobo): "approx." 15 x 27 x 1/8 in aluminium motherboard, accessed 3 November 2026.
+[^rothco]: Rothco, [*Alice Pack Frame with Attachments*](https://www.rothco.com/product/rothco-alice-pack-frame-with-attachments): 20.5 x 12.5 in (listed as shipping dimensions), accessed 3 November 2026.
+[^haslabbox]: Shacknews, [*Unboxing & Review: HasLab Spengler's Proton Pack*](https://www.shacknews.com/article/133812/unboxing-review-haslab-spenglers-proton-pack): box 26.75 x 14.57 in.
 [^ansur]: The Ergonomics Center of North Carolina, [*Anthropometric Summary Data Tables*](https://www.ergocenter.ncsu.edu/wp-content/uploads/sites/18/2017/09/Anthropometric-Summary-Data-Tables.pdf) (2017), citing Gordon et al., *2012 Anthropometric Survey of U.S. Army Personnel* (ANSUR II): head length, men 50th percentile 7.87 in, SD 0.28 in.
 

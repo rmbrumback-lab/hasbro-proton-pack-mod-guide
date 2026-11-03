@@ -24,7 +24,7 @@ A photo can only be measured once something in it has a known size. References a
 ## Measuring a photo
 
 1. **Pick features in one plane.** Only measure a feature that lies in the same plane as its reference, and roughly square to the camera. Anything else is either corrected or not measured.
-2. **Correct perspective** where four or more points on a known flat rectangle are visible (homography). Record the correction.
+2. **Correct perspective** where four or more points on a known flat rectangle are visible (homography). Record the correction. Where no rectangle is available, measure the foreshortening from a part known to be round (its apparent height over width) or from a ratio taken in a straight-on photo of the same part, and correct distances along the foreshortened direction. A scale taken across a photo does not carry to distances along it until this is done: the v0.3 overall height was 11% low for this reason.
 3. **Measure in pixels** at full resolution, at both edges of each feature, and record the pixel coordinates so the measurement can be repeated.
 4. **Convert** with the reference: `size = pixels × (reference size / reference pixels)`.
 5. **Estimate the error** from: edge sharpness (± pixels at each edge), the reference's own tolerance, depth difference between feature and reference, and residual perspective.

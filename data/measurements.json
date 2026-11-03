@@ -163,10 +163,11 @@
     }
   },
   "open_issues": [
-    "Primary scale now from human head length in two worn-pack photos: pack front height about 590 mm (range 545-640). Needs a third, independent check (tape measure by an owner, or a mat-measured part carried into a Hasbro photo) before drawing.",
+    "Overall height now ~665 mm (640-690). A tape-measure reading by an owner would settle it; ask in the thread.",
+    "Head-length scaling of the worn photos (590-595 mm) disagrees by ~11%; find out why before using worn photos for anything.",
     "Identify which tubes on the 1984 pack are the 6 mm hoses gbrich refers to; measure those instead."
   ],
-  "scale_crosscheck_img1": {
+  "scale_crosscheck_img1_superseded": {
     "anchors": [
       {
         "anchor": "Crank knob, MS91528 replica, 1-1/4 in (31.75 mm)",
@@ -175,7 +176,8 @@
         "px": 87.2,
         "mm_per_px": 0.3641,
         "implied_front_height_mm": 620,
-        "method": "circle fit to 291 edge points, residual SD 0.34 px"
+        "method": "circle fit to 291 edge points, residual SD 0.34 px",
+        "corrected_for_foreshortening_mm": 681
       },
       {
         "anchor": "Thin red tube from elbow, 5/32 in (3.97 mm) on screen packs",
@@ -184,7 +186,8 @@
         "px": 11.6,
         "mm_per_px": 0.3422,
         "implied_front_height_mm": 583,
-        "method": "16 profiles, two runs"
+        "method": "16 profiles, two runs",
+        "corrected_for_foreshortening_mm": 641
       },
       {
         "anchor": "Thick red hose at strain relief, 6 mm",
@@ -193,7 +196,8 @@
         "px": 18.7,
         "mm_per_px": 0.3209,
         "implied_front_height_mm": 547,
-        "method": "10 profiles"
+        "method": "10 profiles",
+        "corrected_for_foreshortening_mm": 601
       },
       {
         "anchor": "Blue hose to ion-arm elbow, 1/4 in (6.35 mm) on screen packs",
@@ -202,7 +206,8 @@
         "px": 16.1,
         "mm_per_px": 0.3944,
         "implied_front_height_mm": 672,
-        "method": "13 profiles"
+        "method": "13 profiles",
+        "corrected_for_foreshortening_mm": 738
       },
       {
         "anchor": "Head length, worn-pack side view (image 3)",
@@ -225,7 +230,105 @@
     ],
     "median_front_height_mm": 592.5,
     "spread_pct": 10.5,
-    "status": "estimated: six anchors, median about 590 mm; tubing anchors depend on Hasbro using the same tube sizes as the screen props, so the rigid knob and the two head-length estimates carry most weight",
+    "status": "SUPERSEDED 2026-11-03: these anchors give the horizontal scale of image 1 correctly, but image 1 is shot from above with the pack leaning back, so vertical distances are foreshortened by k = 0.91. Implied heights below are uncorrected; divide by k.",
     "excluded": "none yet; the 1/4 in blue hose (672 mm) is the high outlier and the 6 mm thick hose (547 mm) the low one"
+  },
+  "overall_height": {
+    "value_mm": 665,
+    "range_mm": [
+      640,
+      690
+    ],
+    "status": "estimated (eight references, five independent methods)",
+    "definition": "motherboard top to bottom edge in the straight-on back view (image 9); the front view's gearbox top to lower disc spans the same height within about 2%",
+    "foreshortening_img1": {
+      "k": 0.91,
+      "range": [
+        0.89,
+        0.93
+      ],
+      "readings": [
+        {
+          "method": "unlit upper-left cyclotron lens, a circle, appears 92 x 85 px (w x h)",
+          "k": 0.92
+        },
+        {
+          "method": "shell width / front height in image 1 (932 / 1704 px) vs board width / height in the straight-on back view, image 9 (851 / 1737 px)",
+          "k": 0.896
+        }
+      ],
+      "consequence": "the 590 mm front height of v0.3 was image-1 pixel height times a horizontal scale; it is low by 1/k"
+    },
+    "anchors": [
+      {
+        "anchor": "Crank knob MS91528, 1-1/4 in, image 1",
+        "source": "GBFans wiki: Crank Knob",
+        "height_mm": 681
+      },
+      {
+        "anchor": "Thin red tube 5/32 in, image 1",
+        "source": "GBFans wiki: Legris",
+        "height_mm": 641
+      },
+      {
+        "anchor": "Shoulder strap webbing, image 9: 101.5 px; assumed 1.5 in (38.1 mm), the usual size for this buckle style",
+        "source": "assumption (standard webbing size)",
+        "height_mm": 652
+      },
+      {
+        "anchor": "Waist belt webbing, image 9: 127 px; assumed 2 in (50.8 mm); belt ~40 mm proud of the board, -2.5%",
+        "source": "assumption (standard webbing size)",
+        "height_mm": 678
+      },
+      {
+        "anchor": "Redman Studio Workshop aluminium motherboard for the HasLab pack, 'approx. 15 x 27 x 1/8 in'; gbrich fitted this board to the Hasbro 1984 pack (posts #1, #68)",
+        "source": "https://reach.dog/shop/redman-studio-workshop/products/proton-pack-mobo",
+        "height_mm": 686,
+        "note": "vendor's approximate size, likely rounded up"
+      },
+      {
+        "anchor": "Rothco LC-1 ALICE frame '20.5 x 12.5 in' (gbrich's frame, post #72) lying on the Redman board, post #68 photo; length via the side tubes' vanishing point",
+        "source": "https://www.rothco.com/product/rothco-alice-pack-frame-with-attachments",
+        "height_mm": [
+          640,
+          675
+        ],
+        "note": "Rothco lists 20.5 x 12.5 in as shipping dimensions; if the frame itself is smaller, this estimate drops in proportion"
+      },
+      {
+        "anchor": "HasLab Spengler pack shipping box 26.75 x 14.57 in (Shacknews unboxing)",
+        "source": "https://www.shacknews.com/article/133812/unboxing-review-haslab-spenglers-proton-pack",
+        "height_mm": "upper bound 679 (HasLab box, same shell family)"
+      }
+    ],
+    "rejected": [
+      {
+        "anchor": "Thick red hose 6 mm (image 1)",
+        "height_mm": 601,
+        "why": "low outlier; which tube is 6 mm is unconfirmed"
+      },
+      {
+        "anchor": "Blue hose 1/4 in (image 1)",
+        "height_mm": 738,
+        "why": "high outlier; Hasbro tube size unconfirmed"
+      },
+      {
+        "anchor": "Wearers' head length, images 2 and 3",
+        "height_mm": [
+          590,
+          595
+        ],
+        "why": "would need a head length about 225 mm, 3.5 SD above the ANSUR II mean; perspective of the worn photos is not controlled. Unexplained; kept as an open issue"
+      }
+    ],
+    "median_of_kept_mm": 667,
+    "width": {
+      "board_main_width_mm": 326,
+      "range_mm": [
+        314,
+        338
+      ],
+      "method": "image 9 board width/height 851/1737 = 0.490 x 665 mm; image 1 shell width 932 px x horizontal scale 0.342-0.364 mm/px gives 319-339 mm; the 12.5 in ALICE frame sits just inside the board in the post #68 photos"
+    }
   }
 }
