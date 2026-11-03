@@ -665,4 +665,4 @@ Cited posts: 59. Verified: 14.
 
 > **Pack stand:** gbrich's CGTrader stand was too shallow for an ALICE frame on spacers, so he extended two parts by 7.5 cm. Test-fit before painting.
 >
-> 3 mm neoprene left marks on the pack. He's considering black felt instead.
+> On his stand, the 3 mm neoprene pads that touch the pack took indents from it, though the pack itself was left unmarked. He may switch to 3 mm black felt.

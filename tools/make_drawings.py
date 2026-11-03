@@ -411,7 +411,7 @@ def s3_neck(S: Sheet):
          "neoprene/foam sheet cut to fit.", tag([73])),
         ("After a full day at MCM Comic Con London the top nut of the ALICE frame still dug in through "
          "two layers of 3 mm padding. Plan for more.", tag([88])),
-        ("3 mm neoprene left marks on the pack; gbrich is considering black felt.", tag([91])),
+        ("On gbrich's pack stand, 3 mm neoprene pads took indents from the pack (the pack was unmarked); he may switch to 3 mm felt.", tag([91])),
     ], width=70)
 
 

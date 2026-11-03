@@ -263,7 +263,7 @@ From gbrich's first full day at a convention (**reported**):[^p88]
 
 *Drawing S3, scale 1:1: section and covering pattern from post #73. The 160.2 mm covering width is calculated, not measured.[^p73]*
 
-- 3 mm neoprene left marks on the pack. He's considering black felt instead.[^p91]
+- On his stand, the 3 mm neoprene pads that touch the pack took indents from it, though the pack itself was left unmarked. He may switch to 3 mm black felt.[^p91]
 
 ## Suppliers and lead times
 
