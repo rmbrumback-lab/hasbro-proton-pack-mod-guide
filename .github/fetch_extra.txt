@@ -1,0 +1,4 @@
+http://tools.openlab.psu.edu/publicData/ANSUR_II_MALE_Public.csv
+http://tools.openlab.psu.edu/publicData/ANSUR_II_FEMALE_Public.csv
+http://tools.openlab.psu.edu/publicData/ANSURII-TR15-007.pdf
+https://instructions.hasbro.com/api/download/F5226_en-us_ghostbusters-plasma-series-spengler-s-proton-pack-collectible-has-lab-project-1-1-scale-movie-replica.pdf F5226_manual.pdf

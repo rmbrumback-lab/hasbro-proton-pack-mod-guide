@@ -1,0 +1,24 @@
+name: fetch-extra
+# Downloads the URLs in .github/fetch_extra.txt to the sources-cache branch
+# (temporary working cache, cleared after use).
+on:
+  push:
+    branches: [fetch-extra]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - run: python .github/scripts/fetch_extra.py
+      - run: |
+          git config user.name "fetch-sources bot"
+          git config user.email "actions@users.noreply.github.com"
+          git checkout --orphan sources-cache
+          git rm -rq --cached .
+          git add -f sources
+          git commit -qm "Extra cache $(date -u +%FT%TZ)"
+          git push -f origin sources-cache
