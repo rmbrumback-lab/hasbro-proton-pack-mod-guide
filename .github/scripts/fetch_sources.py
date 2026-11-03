@@ -15,7 +15,7 @@ import urllib.request
 from pathlib import Path
 
 OUT = Path("sources")
-UA = {"User-Agent": "Mozilla/5.0 (research fetch; rmbrumback-lab/hasbro-proton-pack-mod-guide)"}
+UA = {"User-Agent": "Mozilla/5.0 (research fetch; rmbrumback-lab/hasbro-1984-proton-pack-blueprint)"}
 manifest = []
 
 

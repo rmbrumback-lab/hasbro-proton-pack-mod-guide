@@ -26,7 +26,7 @@ ROOT = Path(__file__).resolve().parent.parent
 PAGE = ROOT / "docs" / "wiki" / "hasbro-1984-proton-pack.md"
 CHECKLIST = ROOT / "docs" / "VERIFICATION.md"
 THREAD = "https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236"
-RAW = "https://raw.githubusercontent.com/rmbrumback-lab/hasbro-proton-pack-mod-guide/main"
+RAW = "https://raw.githubusercontent.com/rmbrumback-lab/hasbro-1984-proton-pack-blueprint/main"
 
 DEF_RE = re.compile(r"^\[\^([\w-]+)\]:\s*(.+)$", re.M)
 USE_RE = re.compile(r"\[\^([\w-]+)\](?!:)")

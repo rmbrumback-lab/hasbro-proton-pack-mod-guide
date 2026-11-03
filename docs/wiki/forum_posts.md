@@ -15,7 +15,7 @@ Purpose: share the draft with gbrich and the other contributors before publishin
 >
 > The draft is organized by task (disassembly, accuracy differences, exterior hardware, motherboard and ALICE frame, inner cyclotron, electronics, wand, 3D printing, wearing the pack). Every step is credited to you or whoever posted it, with a footnote linking to the exact post. Nothing is copied word for word, and none of your photos are used.
 >
-> Draft: https://github.com/rmbrumback-lab/hasbro-proton-pack-mod-guide/blob/main/docs/wiki/hasbro-1984-proton-pack-modding.md
+> Draft: https://github.com/rmbrumback-lab/hasbro-1984-proton-pack-blueprint/blob/main/docs/wiki/hasbro-1984-proton-pack-modding.md
 >
 > Before it goes live, would you be up for a quick look to correct anything I've got wrong? And would you be OK with a few of your photos being used on the page, credited to you? @nomake-wan, the same goes for your HGA method and the GPStar notes.
 >
@@ -25,7 +25,7 @@ Purpose: share the draft with gbrich and the other contributors before publishin
 
 Purpose: ask AJ Quick where the page should live, following the same route as the Ecto-1A page. Post after Draft 1 gets a reply. Uses one link and one mention.
 
-> @aj-quick I've drafted a wiki page that turns the "Hasbro 1984 Proton Pack BIG Overhaul and Customisation" thread into a step-by-step modding guide, with every step footnoted to its post: https://github.com/rmbrumback-lab/hasbro-proton-pack-mod-guide/blob/main/docs/wiki/hasbro-1984-proton-pack-modding.md
+> @aj-quick I've drafted a wiki page that turns the "Hasbro 1984 Proton Pack BIG Overhaul and Customisation" thread into a step-by-step modding guide, with every step footnoted to its post: https://github.com/rmbrumback-lab/hasbro-1984-proton-pack-blueprint/blob/main/docs/wiki/hasbro-1984-proton-pack-modding.md
 >
 > gbrich and nomake-wan have [seen it / are reviewing it]. Would Equipment → Proton Pack → "Hasbro 1984 Proton Pack Modding" be the right place? It could later grow to cover the HasLab and Spirit packs too, so I'm open to a broader title if you'd prefer.
 
