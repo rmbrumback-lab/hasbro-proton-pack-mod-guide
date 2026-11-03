@@ -155,10 +155,77 @@
       },
       "depth_correction": "pack front ~350 mm closer than head midline; factor 1.10-1.16 for camera 2.5-4 m",
       "status": "estimated"
+    },
+    "img1_front_height_px": {
+      "value": 1704,
+      "points": "gearbox top edge y=131 to bottom of the lower lid disc y~1835",
+      "uncertainty_px": 10
     }
   },
   "open_issues": [
     "Primary scale now from human head length in two worn-pack photos: pack front height about 590 mm (range 545-640). Needs a third, independent check (tape measure by an owner, or a mat-measured part carried into a Hasbro photo) before drawing.",
     "Identify which tubes on the 1984 pack are the 6 mm hoses gbrich refers to; measure those instead."
-  ]
+  ],
+  "scale_crosscheck_img1": {
+    "anchors": [
+      {
+        "anchor": "Crank knob, MS91528 replica, 1-1/4 in (31.75 mm)",
+        "source": "GBFans wiki: Crank Knob",
+        "size_mm": 31.75,
+        "px": 87.2,
+        "mm_per_px": 0.3641,
+        "implied_front_height_mm": 620,
+        "method": "circle fit to 291 edge points, residual SD 0.34 px"
+      },
+      {
+        "anchor": "Thin red tube from elbow, 5/32 in (3.97 mm) on screen packs",
+        "source": "GBFans wiki: Legris",
+        "size_mm": 3.97,
+        "px": 11.6,
+        "mm_per_px": 0.3422,
+        "implied_front_height_mm": 583,
+        "method": "16 profiles, two runs"
+      },
+      {
+        "anchor": "Thick red hose at strain relief, 6 mm",
+        "source": "gbrich, post #4",
+        "size_mm": 6.0,
+        "px": 18.7,
+        "mm_per_px": 0.3209,
+        "implied_front_height_mm": 547,
+        "method": "10 profiles"
+      },
+      {
+        "anchor": "Blue hose to ion-arm elbow, 1/4 in (6.35 mm) on screen packs",
+        "source": "GBFans wiki: Dale Resistors",
+        "size_mm": 6.35,
+        "px": 16.1,
+        "mm_per_px": 0.3944,
+        "implied_front_height_mm": 672,
+        "method": "13 profiles"
+      },
+      {
+        "anchor": "Head length, worn-pack side view (image 3)",
+        "source": "ANSUR II via Ergonomics Center of NC",
+        "implied_front_height_mm": 595,
+        "range": [
+          545,
+          640
+        ]
+      },
+      {
+        "anchor": "Head length, worn-pack back view (image 2)",
+        "source": "ANSUR II via Ergonomics Center of NC",
+        "implied_front_height_mm": 590,
+        "range": [
+          570,
+          610
+        ]
+      }
+    ],
+    "median_front_height_mm": 592.5,
+    "spread_pct": 10.5,
+    "status": "estimated: six anchors, median about 590 mm; tubing anchors depend on Hasbro using the same tube sizes as the screen props, so the rigid knob and the two head-length estimates carry most weight",
+    "excluded": "none yet; the 1/4 in blue hose (672 mm) is the high outlier and the 6 mm thick hose (547 mm) the low one"
+  }
 }
