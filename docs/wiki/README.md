@@ -17,7 +17,7 @@ These follow the agreements reached with AJ Quick for the Ecto-1A LED Sign Board
 - **Credit** both inline and at the bottom: a footnote at every claim, plus Credits and References sections.
 - **Footnotes** use the wiki's syntax: `[^id]` in the text, `[^id]: source` in References. Post footnotes are named `p<number>` and must link to that post. The checker enforces this.
 - **No tables.** The wiki editor doesn't support them. Use headed lists.
-- **Images:** none in v0.1. Members' photos are only used with the poster's permission, uploaded to the wiki page (up to 30) with credit. Diagrams of our own can be added under `docs/images/`.
+- **Images** are written `![alt](IMG:drawings/file.png)`, a path under `docs/`. Only our own renderings go on the page; members' photos are linked from [RENDERINGS.md](../RENDERINGS.md), and used on the page only with the poster's permission and credit. The wiki limit is 30 images. `check_wiki.py` writes `build/wiki/page_github.md` (images pointing at GitHub, for preview) and `build/wiki/upload_list.txt`.
 - **Status labels:** **reported** (one builder), **corroborated** (two or more), and "as reported at the time" for prices and lead times. Keep them consistent with the [README](../../README.md#status-labels).
 - **Spelling:** American, matching the Ecto-1A page and the existing wiki, except product names (for example Jenolite "Gun Metal Grey").
 
@@ -26,7 +26,7 @@ These follow the agreements reached with AJ Quick for the Ecto-1A LED Sign Board
 1. All posts ticked in [`../VERIFICATION.md`](../VERIFICATION.md), and `python tools/check_wiki.py` passes.
 2. gbrich and nomake-wan have seen the draft (see [`forum_posts.md`](forum_posts.md)).
 3. AJ Quick has confirmed the page location.
-4. Paste the page into the wiki editor's Content, set tags and edit summary from `page.json`, and save.
+4. Upload the images in `build/wiki/upload_list.txt` to the wiki page, swap each `IMG:` path for its GBFans asset URL (or use the GitHub-image preview until uploads work), then paste the page into the wiki editor's Content, set tags and edit summary from `page.json`, and save.
 5. Record the wiki status in the revision log below and commit with the same summary.
 
 ## Revision log
@@ -34,3 +34,4 @@ These follow the agreements reached with AJ Quick for the Ecto-1A LED Sign Board
 | Date | Version | Change | Wiki status |
 |---|---|---|---|
 | 2026-11-02 | v0.1 | First draft from posts #1–91 of the overhaul thread: before you start, accuracy differences, disassembly, exterior hardware, aluminum motherboard and ALICE frame, inner cyclotron, electronics, wand, 3D printing, wearing the pack, suppliers, open questions, credits and references | Not submitted. Verification pending |
+| 2026-11-02 | v0.2 | Seven blueprint sheets (emitter tubes, ALICE spacer, neck pad, BNC ends, ion arm cap, HGA removal, drill chart) embedded in the page; RENDERINGS.md links every drawn value to its post and the forum photos | Not submitted. Verification pending |

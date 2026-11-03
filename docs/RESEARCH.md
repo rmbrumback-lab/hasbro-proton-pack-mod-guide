@@ -32,6 +32,13 @@ A survey of the GBFans forum on 2 November 2026 found:
 - the motherboard hole guidance in post #68 (5/16" in the instructions);
 - the BNC connector drill size (post #12: 5.5 mm, or 6 mm with glue).
 
+## v0.2 — drawings (2 November 2026)
+
+- Added seven blueprint sheets, generated from a single data file (`tools/drawing_data.py`) in which every value records its post and a status: sourced, derived or schematic.
+- Drew only documented values. Undocumented geometry (cap shape, HGA bracket, cable diameter, speaker hole layout) is either left out or drawn dashed as schematic. The speaker vent was not drawn because the hole positions weren't given; its hole size is on the drill chart instead.
+- Collected the forum photo URLs for every post a drawing uses, and generated RENDERINGS.md so each sheet links to the photos of the same part.
+- Derived values: the 1 mm emitter play (23 − 22), the 54 mm neck pad OD (48 + 2 × 3) and the 160.2 mm covering width (π × 51).
+
 ## Next
 
 1. Verify every statement against its post ([VERIFICATION.md](VERIFICATION.md)).

@@ -1,6 +1,6 @@
 The **Hasbro 1984 Proton Pack** is Hasbro's full-size *Ghostbusters* (1984) replica pack, sold alongside the 1984 Neutrona Wand. It shares much of its tooling with the earlier HasLab Spengler's Proton Pack, and builders on GBFans.com have been taking both apart to make them more screen accurate, more durable and fully interactive.
 
-This page collects the techniques, measurements and lessons that GBFans members have reported for the 1984 pack and wand. Most of it comes from gbrich's build thread *Hasbro 1984 Proton Pack BIG Overhaul and Customisation*, with contributions from nomake-wan, spooky, mcspain, cantignie and others.[^thread] Every step is credited to the post it came from, so you can read the original with photos.
+This page collects the techniques, measurements and lessons that GBFans members have reported for the 1984 pack and wand. Most of it comes from gbrich's build thread *Hasbro 1984 Proton Pack BIG Overhaul and Customisation*, with contributions from nomake-wan, spooky, mcspain, cantignie and others.[^thread] Every step is credited to the post it came from, so you can read the original with photos. The blueprint drawings on this page are new renderings of the measurements builders reported. Values that were calculated rather than measured are shown in light blue italics, and anything nobody measured is marked as schematic.
 
 **How to read this page:** these are methods that individual builders used on their own packs, not manufacturer instructions. Steps marked **reported** come from one builder. Steps marked **corroborated** were confirmed by a second builder. Prices, stock and lead times are **as reported at the time** and will change. Take your time, test-fit before you glue or paint, and expect to void any warranty.
 
@@ -59,6 +59,11 @@ The HGA is held by a screwed bracket that is also superglued, plus a twist lock.
 
 spooky reported a similar approach: once everything is unscrewed, a pry tool wedged in pops the glue off the band around the HGA.[^p21] Removing the HGA first makes it much easier to cut off the fake bolts cleanly.[^p29]
 
+![HGA removal sequence](IMG:drawings/s6_hga_removal.png)
+
+*Drawing S6, schematic: nomake-wan's method, from post #27. nomake-wan's own photos in that post show where the blade goes.[^p27]*
+
+
 ### CRT emitter tubes
 
 The clear emitter tubes are glued to their caps and are not designed to come apart.[^p12] Prying the caps off cracked two tubes for gbrich.[^p12] His eventual method sacrifices the clear tubes but saves the caps and the black inserts (**reported**):[^p23]
@@ -99,6 +104,11 @@ gbrich replaced the stock ribbon cable first with a more accurate one from a Spi
 
 The stock end cap is a push fit and can fall off. gbrich drilled two 3 mm holes through the centers of the molded fake bolts into the ion arm and fitted M3 × 20 mm bolts, removing the top rear silver screw that was in the way.[^p73] An aluminum ion arm is the alternative.[^p73]
 
+![Ion arm end cap pinning](IMG:drawings/s5_ion_arm_cap.png)
+
+*Drawing S5, schematic: hole and bolt sizes from post #73, which also has a photo of the result.[^p73]*
+
+
 ### Clippard valve
 
 The stock valve's mounting holes don't line up with a replica Clippard R-331 or R-701.[^p53] On the wand, gbrich ground the locating nub off the base of a replica valve with a Dremel rather than drilling into the wand body.[^p77]
@@ -108,6 +118,14 @@ The stock valve's mounting holes don't line up with a replica Clippard R-331 or 
 - **Bumper:** silver screws replaced with black screws and brass washers.[^p32]
 - **Hex hardware:** silver screws swapped for black M3 hex bolts, a better red power switch, and a proper strain relief on the blue hose.[^p12]
 - **Filler and beamline tubes:** 3D-printed bases and caps, with weld beads modeled in black epoxy (**reported**).[^p81][^p82]
+
+### Hole and hardware sizes
+
+Every drill and fastener size reported in the thread, collected on one sheet. Printed at 100% on US Letter, the circles are true size, so you can hold a drill bit against them. Check the 50 mm bar first.[^p4][^p68][^p73]
+
+![Drill and hardware chart](IMG:drawings/s7_drill_chart.png)
+
+*Drawing S7, scale 1:1. Each size is labeled with the post it comes from.*
 
 ## Aluminum motherboard and ALICE frame
 
@@ -121,6 +139,11 @@ Gaps he found in Redman's instructions (**reported**):[^p68]
 - **ALICE frame mounting kit:** with Redman's 1984 ALICE frame mounting kit, the bolts were about 3 mm too long for the board to close flush. gbrich printed spacers (20 mm OD × 8 mm ID × 3 mm) to go under the outer washers. Rubber washers would also work.
 - **Rivets:** the board comes with three rivets for behind the power cell, without instructions. Hot glue left visible residue in the snack compartment, so gbrich replaced them with short M3 button-head bolts and nuts, which look the same from outside.[^p73]
 - **Mounting order:** mount the board and its four L-brackets to the pack first, then take it off again to fit the ALICE frame.
+
+![ALICE frame mounting spacer](IMG:drawings/s2_alice_spacer.png)
+
+*Drawing S2, scale 3:1: spacer printed by gbrich. Post #68 has photos of the protruding bolt and the spacer in place.[^p68]*
+
 
 gbrich's ALICE frame is a Rothco LC-1 reproduction that arrived black, so it needed no paint. mcspain's is a genuine olive LC-2 that he plans to paint.[^p71][^p72]
 
@@ -146,6 +169,11 @@ The molded wires on the cake and rear panel look plastic. Two approaches have be
 
 For the black cables inside the lid, gbrich sliced off the molded ends and pushed in real metal BNC connectors. A 5.5 mm hole drilled into each cable stub gives a friction fit with no glue. A 6 mm hole also works with glue (**reported**).[^p12]
 
+![BNC cable end modification](IMG:drawings/s4_bnc_ends.png)
+
+*Drawing S4, schematic: only the drill sizes are documented.[^p12]*
+
+
 ### Rebuilding the emitter tubes
 
 gbrich's working replacement is clear acrylic tube, **14 mm OD × 12 mm ID**, cut to **23 mm** (the insert is 22 mm long, leaving 1 mm of play).[^p23][^p32] An 11 mm ID tube is too small for the inserts,[^p12] and a 15 mm OD tube didn't fit the lid housing.[^p23]
@@ -154,6 +182,11 @@ gbrich's working replacement is clear acrylic tube, **14 mm OD × 12 mm ID**, cu
 - He glued a cap to one end, slid the insert in from the other end, then glued that end into the lid. The tubes no longer twist-lock.[^p32]
 - mcspain also cut new acrylic tubes and discarded about half his cuts.[^p81] gbrich suggests 3D printing a twist-lock base so new tubes fit like the originals.[^p82]
 - mcspain bought replacement emitter tops from Imperial Tech Shop.[^p83]
+
+![CRT emitter tube rebuild drawing](IMG:drawings/s1_emitter_tubes.png)
+
+*Drawing S1, scale 3:1: tube sizes from gbrich's posts #23 and #32. Compare with his photos of the finished tubes in post #32.[^p32]*
+
 
 ### Switch plate
 
@@ -225,6 +258,11 @@ From gbrich's first full day at a convention (**reported**):[^p88]
 - The pack is still heavy over about five hours of standing.
 - The center of the ALICE frame and its top nut dig into your back, even through two layers of 3 mm padding. Plan for more padding.[^p72][^p88]
 - A neck pad made from 22 mm ID pipe insulation (13 mm wall) covered in 3 mm adhesive neoprene helped, and a foam strip along the top of the motherboard gave somewhere to rest his head.[^p73][^p88]
+
+![ALICE frame neck pad section and flat pattern](IMG:drawings/s3_neck_pad.png)
+
+*Drawing S3, scale 1:1: section and covering pattern from post #73. The 160.2 mm covering width is calculated, not measured.[^p73]*
+
 - 3 mm neoprene left marks on the pack. He's considering black felt instead.[^p91]
 
 ## Suppliers and lead times
@@ -251,7 +289,7 @@ This page is built from the work and generosity of:
 - **mcspain**, **cantignie**, **flashlight_buff** and everyone else who posted questions and progress.
 - Video makers **Imperial Tech Shop** and **RSquad911**, whose tutorials are referenced in the thread.
 
-Compiled by ryan-brumback, with AI assistance (Anthropic's Claude) for organizing the thread. Every step was checked against the original post.
+Compiled by ryan-brumback, with AI assistance (Anthropic's Claude) for organizing the thread. Blueprint drawings by ryan-brumback, rendered from the measurements in the thread; they are new drawings, not copies of members' photos. Every step was checked against the original post.
 
 ## References
 

@@ -6,6 +6,10 @@ Checks (exits non-zero on any failure):
   * every footnote used in the text has a definition, and every definition is used
   * every post footnote [^pN] links to post N of the source thread
   * no Markdown tables (the GBFans wiki editor doesn't support them)
+  * every IMG: image exists under docs/, at most 30 images, no third-party images
+
+Also writes build/wiki/page_github.md (images pointing at GitHub, for preview) and
+build/wiki/upload_list.txt (the images to upload to the wiki page).
 
 Writes docs/VERIFICATION.md: one checklist section per cited post, listing every
 sentence on the page that cites it, so each claim can be checked against the
@@ -22,6 +26,7 @@ ROOT = Path(__file__).resolve().parent.parent
 PAGE = ROOT / "docs" / "wiki" / "hasbro-1984-proton-pack-modding.md"
 CHECKLIST = ROOT / "docs" / "VERIFICATION.md"
 THREAD = "https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236"
+RAW = "https://raw.githubusercontent.com/rmbrumback-lab/hasbro-proton-pack-mod-guide/main"
 
 DEF_RE = re.compile(r"^\[\^([\w-]+)\]:\s*(.+)$", re.M)
 USE_RE = re.compile(r"\[\^([\w-]+)\](?!:)")
@@ -97,6 +102,23 @@ def main() -> int:
     for i, line in enumerate(text.splitlines(), 1):
         if re.match(r"^\s*\|.*\|\s*$", line):
             errors.append(f"line {i}: Markdown table (not supported by the wiki editor)")
+
+    # images: IMG:<path under docs/> must exist; wiki allows at most 30 per page
+    images = re.findall(r"!\[[^\]]*\]\(IMG:([^)]+)\)", text)
+    for rel in images:
+        if not (ROOT / "docs" / rel).exists():
+            errors.append(f"image IMG:{rel} not found under docs/")
+    if len(images) > 30:
+        errors.append(f"{len(images)} images; the wiki allows at most 30 per page")
+    if re.search(r"!\[[^\]]*\]\((?!IMG:)", text):
+        errors.append("image without the IMG: prefix (use our own renderings via IMG:)")
+
+    # preview build: IMG: -> GitHub raw URLs
+    build = ROOT / "build" / "wiki"
+    build.mkdir(parents=True, exist_ok=True)
+    preview = re.sub(r"\]\(IMG:([^)]+)\)", lambda m: f"]({RAW}/docs/{m.group(1)})", text)
+    (build / "page_github.md").write_text(preview, encoding="utf-8")
+    (build / "upload_list.txt").write_text("\n".join(f"docs/{r}" for r in images) + "\n", encoding="utf-8")
 
     # build the checklist
     cites = sentences_citing(body)

@@ -56,6 +56,8 @@ Cited posts: 59. Verified: 14.
 > **Ion arm elbow:** the brass elbow on top of the ion arm connects to the end cap, which also matches Afterlife. On the 1984 packs it connects further back (**reported**).
 >
 > Swapping the rubber fittings for brass elbows and Legris fittings makes one of the biggest visible differences. The stock holes are too small. gbrich needed about a 9 mm hole and widened 8 mm holes step by step. The beamline tube is the only spot where you can pull the rubber part and drop in a brass elbow without modification. The straight fittings have holes that need drilling out.
+>
+> Every drill and fastener size reported in the thread, collected on one sheet. Printed at 100% on US Letter, the circles are true size, so you can hold a drill bit against them. Check the 50 mm bar first.
 
 ### Post #6
 
@@ -120,6 +122,8 @@ Cited posts: 59. Verified: 14.
 > He used a Vallejo wash for grime, then washed most of it back off for a fresh-build look.
 >
 > For the black cables inside the lid, gbrich sliced off the molded ends and pushed in real metal BNC connectors. A 5.5 mm hole drilled into each cable stub gives a friction fit with no glue. A 6 mm hole also works with glue (**reported**).
+>
+> *Drawing S4, schematic: only the drill sizes are documented.*
 >
 > gbrich's working replacement is clear acrylic tube, **14 mm OD × 12 mm ID**, cut to **23 mm** (the insert is 22 mm long, leaving 1 mm of play). An 11 mm ID tube is too small for the inserts, and a 15 mm OD tube didn't fit the lid housing.
 
@@ -218,6 +222,8 @@ Cited posts: 59. Verified: 14.
 - [ ] Verified
 
 > The HGA is held by a screwed bracket that is also superglued, plus a twist lock. Several builders struggled with it until nomake-wan posted a non-destructive method, used on both a HasLab and a 1984 pack (**corroborated**):
+>
+> *Drawing S6, schematic: nomake-wan's method, from post #27. nomake-wan's own photos in that post show where the blade goes.*
 
 ### Post #29
 
@@ -252,6 +258,8 @@ Cited posts: 59. Verified: 14.
 > A junior hacksaw struggled to make square cuts. A mitre saw with a fine 60-tooth blade worked.
 >
 > He glued a cap to one end, slid the insert in from the other end, then glued that end into the lid. The tubes no longer twist-lock.
+>
+> *Drawing S1, scale 3:1: tube sizes from gbrich's posts #23 and #32. Compare with his photos of the finished tubes in post #32.*
 
 ### Post #33
 
@@ -483,9 +491,13 @@ Cited posts: 59. Verified: 14.
 
 > gbrich replaced the stock ribbon cable first with a more accurate one from a Spirit Halloween pack, then with a C&A Props ribbon cable and clamp. The C&A clamp mounts with two new 3 mm holes drilled just right of the stock square clamp holes, using the supplied hardware.
 >
+> Every drill and fastener size reported in the thread, collected on one sheet. Printed at 100% on US Letter, the circles are true size, so you can hold a drill bit against them. Check the 50 mm bar first.
+>
 > gbrich fitted a Redman Studio Workshop aluminum motherboard. With the GPStar speaker installed, he drilled seven 5 mm holes in the board over the lower part of the speaker (not through it) so the sound isn't muffled. The DANGER sticker covers two of the holes and the sound is still clear. He painted the drilled edges black and hot-glued N-filter mesh behind the holes.
 >
 > Gaps he found in Redman's instructions (**reported**):
+>
+> *Drawing S2, scale 3:1: spacer printed by gbrich. Post #68 has photos of the protruding bolt and the spacer in place.*
 >
 > The stock cake is hard to separate without damage and diffuses the light, so gbrich printed TacoBelli's replacement cake, with a lid window cut from 3 mm frosted acrylic and fixed with M2.5 black button-head screws. He didn't glue the new wires permanently, so the lid can come off to reach the LED ring. A printed ring centers the LED ring in the cake. Leave printed parts out of direct sun: one cake top warped.
 
@@ -533,9 +545,15 @@ Cited posts: 59. Verified: 14.
 >
 > The stock end cap is a push fit and can fall off. gbrich drilled two 3 mm holes through the centers of the molded fake bolts into the ion arm and fitted M3 × 20 mm bolts, removing the top rear silver screw that was in the way. An aluminum ion arm is the alternative.
 >
+> *Drawing S5, schematic: hole and bolt sizes from post #73, which also has a photo of the result.*
+>
+> Every drill and fastener size reported in the thread, collected on one sheet. Printed at 100% on US Letter, the circles are true size, so you can hold a drill bit against them. Check the 50 mm bar first.
+>
 > **Rivets:** the board comes with three rivets for behind the power cell, without instructions. Hot glue left visible residue in the snack compartment, so gbrich replaced them with short M3 button-head bolts and nuts, which look the same from outside.
 >
 > A neck pad made from 22 mm ID pipe insulation (13 mm wall) covered in 3 mm adhesive neoprene helped, and a foam strip along the top of the motherboard gave somewhere to rest his head.
+>
+> *Drawing S3, scale 1:1: section and covering pattern from post #73. The 160.2 mm covering width is calculated, not measured.*
 
 ### Post #77
 
