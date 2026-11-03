@@ -3,14 +3,21 @@
 Reads queries from .github/forum_queries.txt (one per line). Saves
 sources/search/results.json and sources/search/t<id>.json (all posts, raw).
 """
-import json, time, urllib.parse, urllib.request
+import json, time, urllib.error, urllib.parse, urllib.request
 from pathlib import Path
 B = "https://forum.gbfans.com"
 UA = {"User-Agent": "Mozilla/5.0 (research fetch; rmbrumback-lab)", "Accept": "application/json"}
 out = Path("sources/search"); out.mkdir(parents=True, exist_ok=True)
-def get(url):
-    req = urllib.request.Request(url, headers=UA)
-    return json.loads(urllib.request.urlopen(req, timeout=60).read())
+def get(url, tries=5):
+    for i in range(tries):
+        try:
+            req = urllib.request.Request(url, headers=UA)
+            return json.loads(urllib.request.urlopen(req, timeout=60).read())
+        except urllib.error.HTTPError as e:
+            if e.code == 429 and i < tries - 1:
+                wait = int(e.headers.get("Retry-After", "20") or 20)
+                print("429, waiting", wait); time.sleep(min(wait, 90) + 2); continue
+            raise
 results, topics = {}, {}
 for q in Path(".github/forum_queries.txt").read_text().splitlines():
     q = q.strip()
@@ -52,4 +59,4 @@ for tid in ids:
         print("topic", tid, len(posts))
     except Exception as e:
         print("FAIL topic", tid, e)
-    time.sleep(1.5)
+    time.sleep(3)

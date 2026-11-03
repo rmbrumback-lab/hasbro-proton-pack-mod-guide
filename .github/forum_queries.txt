@@ -1,12 +1,1 @@
-haslab cyclotron mm
-haslab ion arm mm
-haslab booster mm
-haslab motherboard mm
-haslab shell mm
-haslab bumper mm
-haslab lens mm
-haslab gun mount mm
-haslab power cell mm
-haslab crank knob
-haslab measured
-hasbro 1984 measured
+# topics-only run
