@@ -1,0 +1,24 @@
+name: forum-search
+# Searches the GBFans forum for the queries in .github/forum_queries.txt and saves
+# the matching topics to the sources-cache branch (temporary cache, cleared after use).
+on:
+  push:
+    branches: [forum-search]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  search:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - run: python .github/scripts/forum_search.py
+      - run: |
+          git config user.name "fetch-sources bot"
+          git config user.email "actions@users.noreply.github.com"
+          git checkout --orphan sources-cache
+          git rm -rq --cached .
+          git add -f sources
+          git commit -qm "Search cache $(date -u +%FT%TZ)"
+          git push -f origin sources-cache
