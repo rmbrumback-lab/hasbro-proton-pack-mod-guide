@@ -18,9 +18,7 @@ Cited posts: 60. Verified: 14.
 - [x] Verified
 - Note: checked 2026-11-02 against the full post text (thread page 1 was read in full, not summarized).
 
-> **The whole pack from Hasbro's product photos.** The general arrangement is measured on Hasbro's product photos. Their scale is set by features of known size and cross-checked between independent references: replica parts with documented real-world sizes (the crank knob and the tubing), the harness webbing, and the aftermarket motherboard and ALICE frame gbrich fitted to his pack. The front product photo is taken from above with the pack leaning back, so its vertical distances are foreshortened by about 12%; this is measured from round parts facing the camera that appear oval (a cyclotron lens and the end cap of the bumper's copper knob) and corrected for. Widths and outlines come from Hasbro's straight-on back photo, which shows the motherboard square to the camera.
->
-> gbrich replaced the stock board with Redman Studio Workshop's aluminum board for the HasLab pack, and it fitted the 1984 pack's shell. The two differ in ways that matter for the blueprint:
+> gbrich replaced the stock board with an aluminum board from Redman Studio Workshop, and it fitted the 1984 pack's shell. The two differ in ways that matter for the blueprint:
 >
 > **Pry with wide, flat tools.** Plastic automotive trim tools spread the load and avoid bending or marking the plastic. A screwdriver concentrates the force and is more likely to damage parts.
 >
@@ -208,6 +206,8 @@ Cited posts: 60. Verified: 14.
 - [ ] Verified
 
 > **Parts measured on a cutting mat.** Several stock parts were photographed by gbrich lying on a cutting mat with a printed 1 cm grid. Each photo is calibrated from the grid itself (hundreds of grid crossings located to a fraction of a pixel), the camera position is recovered, and the part's height above the mat is corrected for.
+>
+> **Only Hasbro 1984 pack evidence.** Scale comes only from the Hasbro 1984 pack itself: Hasbro's product photos of it, parts of it measured on a cutting mat, and the ALICE frame gbrich fitted to his pack. Film-prop part sizes, other Hasbro packs (such as the HasLab Spengler pack) and aftermarket listings for those packs are not used for dimensions.
 >
 > **Rear panel outer diameter:** **262 mm**, **estimated**, range 260–264 mm. Measured on a cutting mat.
 >
@@ -515,13 +515,15 @@ Cited posts: 60. Verified: 14.
 
 - [ ] Verified
 
-> **The whole pack from Hasbro's product photos.** The general arrangement is measured on Hasbro's product photos. Their scale is set by features of known size and cross-checked between independent references: replica parts with documented real-world sizes (the crank knob and the tubing), the harness webbing, and the aftermarket motherboard and ALICE frame gbrich fitted to his pack. The front product photo is taken from above with the pack leaning back, so its vertical distances are foreshortened by about 12%; this is measured from round parts facing the camera that appear oval (a cyclotron lens and the end cap of the bumper's copper knob) and corrected for. Widths and outlines come from Hasbro's straight-on back photo, which shows the motherboard square to the camera.
+> **Only Hasbro 1984 pack evidence.** Scale comes only from the Hasbro 1984 pack itself: Hasbro's product photos of it, parts of it measured on a cutting mat, and the ALICE frame gbrich fitted to his pack. Film-prop part sizes, other Hasbro packs (such as the HasLab Spengler pack) and aftermarket listings for those packs are not used for dimensions.
 >
-> **Overall height** (top to bottom of the motherboard): about **665 mm** (26¼ in), **estimated**, range 640–690 mm. Independent references agree: the crank knob (674–729 mm) and thin red tube (634–686 mm) in the front photo after the foreshortening correction, the shoulder strap and waist belt webbing in the back photo (652 and 678 mm, assuming standard 1½ in and 2 in webbing), the Redman aluminum motherboard (686 mm by its listed size) and the Rothco ALICE frame lying on that board (630–675 mm). The HasLab pack's shipping box, 26¾ in tall, is an upper bound.
+> **Overall height** (top to bottom of the motherboard): about **655 mm** (25¾ in), **estimated**, range 640–680 mm. Three measurements against the 20.5 × 12.5 in Rothco ALICE frame on gbrich's 1984 pack agree: the frame lying on the board (630–675 mm); the frame's width, which sits inside the board's upper section and overhangs its lower section, so the board is at least 644 mm tall; and the board widths in the same photo (630 and 671 mm). The frame's size is Rothco's listed figure, and it limits the accuracy to about ±3%.
 >
 > **Fit check with the ALICE frame:** the 12½ in (318 mm) frame is wider than the lower section and narrower than the upper section. gbrich's photos show exactly that: the frame's side tubes overhang the lower board and sit just inside the edges at the top.
 >
-> gbrich replaced the stock board with Redman Studio Workshop's aluminum board for the HasLab pack, and it fitted the 1984 pack's shell. The two differ in ways that matter for the blueprint:
+> gbrich replaced the stock board with an aluminum board from Redman Studio Workshop, and it fitted the 1984 pack's shell. The two differ in ways that matter for the blueprint:
+>
+> **Material:** the stock board is molded plastic; Redman's is aluminum sheet.
 >
 > **Fixings:** Redman's board comes with 1/4-20 hardware and four L-brackets that tie it to the shell.
 >
@@ -563,7 +565,7 @@ Cited posts: 60. Verified: 14.
 
 - [ ] Verified
 
-> **The whole pack from Hasbro's product photos.** The general arrangement is measured on Hasbro's product photos. Their scale is set by features of known size and cross-checked between independent references: replica parts with documented real-world sizes (the crank knob and the tubing), the harness webbing, and the aftermarket motherboard and ALICE frame gbrich fitted to his pack. The front product photo is taken from above with the pack leaning back, so its vertical distances are foreshortened by about 12%; this is measured from round parts facing the camera that appear oval (a cyclotron lens and the end cap of the bumper's copper knob) and corrected for. Widths and outlines come from Hasbro's straight-on back photo, which shows the motherboard square to the camera.
+> **Only Hasbro 1984 pack evidence.** Scale comes only from the Hasbro 1984 pack itself: Hasbro's product photos of it, parts of it measured on a cutting mat, and the ALICE frame gbrich fitted to his pack. Film-prop part sizes, other Hasbro packs (such as the HasLab Spengler pack) and aftermarket listings for those packs are not used for dimensions.
 >
 > gbrich's ALICE frame is a Rothco LC-1 reproduction that arrived black, so it needed no paint. mcspain's is a genuine olive LC-2 that he plans to paint.
 >

@@ -163,10 +163,9 @@
     }
   },
   "open_issues": [
-    "Overall height now ~665 mm (640-690). A tape-measure reading by an owner would settle it; ask in the thread.",
-    "Ask Redman Studio Workshop for the HasLab board's cut outline (or gbrich for a tape measurement): it would fix height, widths and step positions at once.",
-    "Head-length scaling of the worn photos (590-595 mm) disagrees by ~11%; find out why before using worn photos for anything.",
-    "Identify which tubes on the 1984 pack are the 6 mm hoses gbrich refers to; measure those instead."
+    "Overall height ~655 mm (640-680), frame-based. A tape measurement of a 1984 pack (or of gbrich's Rothco frame) is needed for +/-1%.",
+    "Head-length scaling of the worn photos (590-595 mm) disagrees; unexplained.",
+    "Identify which tubes on the 1984 pack are the 6 mm hoses gbrich refers to (post #4)."
   ],
   "scale_crosscheck_img1_superseded": {
     "anchors": [
@@ -235,12 +234,12 @@
     "excluded": "none yet; the 1/4 in blue hose (672 mm) is the high outlier and the 6 mm thick hose (547 mm) the low one"
   },
   "overall_height": {
-    "value_mm": 665,
+    "value_mm": 655,
     "range_mm": [
       640,
-      690
+      680
     ],
-    "status": "estimated (eight references, five independent methods)",
+    "status": "estimated; all three in-scope measurements use the Rothco frame's listed size, which limits accuracy to about +/-3%",
     "definition": "motherboard top to bottom edge in the straight-on back view (image 9); the front view's gearbox top to lower disc spans the same height within about 2%",
     "foreshortening_img1": {
       "k": 0.88,
@@ -263,75 +262,55 @@
     },
     "anchors": [
       {
+        "anchor": "Rothco frame width 318 mm vs board outline ratios (image 9): frame sits inside the upper section (ratio 0.494) and overhangs the lower section (0.454) in post #68 photos",
+        "height_mm": "644-700 (H >= 318/0.494, H <= 318/0.454)",
+        "source": "post #68 photos; Rothco listing"
+      }
+    ],
+    "excluded_out_of_scope": [
+      {
         "anchor": "Crank knob MS91528, 1-1/4 in, image 1",
-        "source": "GBFans wiki: Crank Knob",
-        "height_mm": [
-          674,
-          729
-        ],
-        "note": "620 mm / k, k 0.85-0.92"
+        "why": "film-prop part size"
       },
       {
         "anchor": "Thin red tube 5/32 in, image 1",
-        "source": "GBFans wiki: Legris",
-        "height_mm": [
-          634,
-          686
-        ],
-        "note": "583 mm / k"
+        "why": "film-prop part size"
       },
       {
         "anchor": "Shoulder strap webbing, image 9: 101.5 px; assumed 1.5 in (38.1 mm), the usual size for this buckle style",
-        "source": "assumption (standard webbing size)",
-        "height_mm": 652
+        "why": "webbing sizes ambiguous: strap/belt ratio 1.251 matches no standard pair (1.5/2 in = 1.333, 1.25/1.5 in = 1.200)"
       },
       {
         "anchor": "Waist belt webbing, image 9: 127 px; assumed 2 in (50.8 mm); belt ~40 mm proud of the board, -2.5%",
-        "source": "assumption (standard webbing size)",
-        "height_mm": 678
+        "why": "webbing sizes ambiguous: strap/belt ratio 1.251 matches no standard pair (1.5/2 in = 1.333, 1.25/1.5 in = 1.200)"
       },
       {
         "anchor": "Redman Studio Workshop aluminium motherboard for the HasLab pack, 'approx. 15 x 27 x 1/8 in'; gbrich fitted this board to the Hasbro 1984 pack (posts #1, #68)",
-        "source": "https://reach.dog/shop/redman-studio-workshop/products/proton-pack-mobo",
-        "height_mm": 686,
-        "note": "vendor's approximate size, likely rounded up"
+        "why": "other-pack data"
       },
       {
         "anchor": "Rothco LC-1 ALICE frame '20.5 x 12.5 in' (gbrich's frame, post #72) lying on the Redman board, post #68 photo; length via the side tubes' vanishing point",
-        "source": "https://www.rothco.com/product/rothco-alice-pack-frame-with-attachments",
-        "height_mm": [
-          630,
-          675
-        ],
-        "note": "Rothco lists 20.5 x 12.5 in as shipping dimensions; if the frame itself is smaller, this estimate drops in proportion; motherboard widths from the same photo (286 mm lower section, 349 mm at the gearbox step, frame-scaled) over image-9 width/height ratios give 630 and 671 mm"
+        "why": "other-pack data"
       },
       {
         "anchor": "HasLab Spengler pack shipping box 26.75 x 14.57 in (Shacknews unboxing)",
-        "source": "https://www.shacknews.com/article/133812/unboxing-review-haslab-spenglers-proton-pack",
-        "height_mm": "upper bound 679 (HasLab box, same shell family)"
+        "why": "other-pack data"
       }
     ],
-    "rejected": [
-      {
-        "anchor": "Thick red hose 6 mm (image 1)",
-        "height_mm": 601,
-        "why": "low outlier; which tube is 6 mm is unconfirmed"
-      },
-      {
-        "anchor": "Blue hose 1/4 in (image 1)",
-        "height_mm": 738,
-        "why": "high outlier; Hasbro tube size unconfirmed"
-      },
-      {
-        "anchor": "Wearers' head length, images 2 and 3",
-        "height_mm": [
-          590,
-          595
-        ],
-        "why": "would need a head length about 225 mm, 3.5 SD above the ANSUR II mean; perspective of the worn photos is not controlled. Unexplained; kept as an open issue"
-      }
-    ],
-    "median_of_kept_mm": 667
+    "conflict": "head-length scaling of Hasbro's worn photos (590-595 mm; plausible 560-640 given unknown camera distance) disagrees; unexplained",
+    "error_budget_for_1pct": {
+      "target": "+/-1% = +/-6.5 mm",
+      "limits": [
+        "Rothco frame size is a listed (shipping) figure, accuracy unknown, ~+/-2-4%",
+        "every whole-pack photo of the 1984 pack is either perspective-uncontrolled (front, worn) or has no measured in-plane reference (straight-on back)",
+        "gbrich's mat-measured parts (rear panel 262 mm +/-0.8%, cake 141 mm +/-2%) sit inside the cyclotron, ~50-200 mm in front of the board, and are never in the same plane as the board's top and bottom edges in a calibrated photo"
+      ],
+      "what_reaches_it": [
+        "tape or rule on a 1984 pack's motherboard, top to bottom and across the three sections (+/-1-2 mm)",
+        "a photo of the board square to the camera with a tape or the A3 cutting mat lying on it (homography, +/-0.5%)",
+        "a caliper/tape measurement of gbrich's Rothco frame, which would turn the three frame-based estimates into +/-1-1.5%"
+      ]
+    }
   },
   "motherboard_outline": {
     "photo": "https://cdn.media.amplience.net/i/hasbropulse/G19145L00_9.png (straight-on back view)",
@@ -351,20 +330,20 @@
       "upper_section_width": 0.494,
       "widest_at_step": 0.52
     },
-    "at_665_mm": {
-      "lower_section_width_mm": 302,
-      "upper_section_width_mm": 329,
-      "widest_mm": 346,
-      "step_from_top_mm": [
-        113,
-        236
-      ]
-    },
     "status": "estimated; scales with overall height (+/-4%)",
     "checks": [
-      "Rothco frame 318 mm: wider than lower section, narrower than upper section; matches post #68 photos (tubes overhang the lower board, sit inside it at the top)",
-      "Redman listed 15 x 27 in: +3% on length, +10% on width vs this outline; treated as a rounded envelope"
+      "Rothco frame 318 mm: wider than lower section, narrower than upper section; matches post #68 photos (tubes overhang the lower board, sit inside it at the top)"
     ],
-    "supersedes": "v0.4 draft 'motherboard width 326 mm', which mixed board sections"
-  }
+    "supersedes": "v0.4 draft 'motherboard width 326 mm', which mixed board sections",
+    "at_655_mm": {
+      "lower_section_width_mm": 297,
+      "upper_section_width_mm": 324,
+      "widest_mm": 341,
+      "step_from_top_mm": [
+        111,
+        232
+      ]
+    }
+  },
+  "_scope": "Hasbro 1984 Proton Pack (G19145L00) only. Film-prop part sizes, other packs (HasLab Spengler/Afterlife, Spirit) and aftermarket listings for other packs are not used as dimensional references (owner instruction, 2026-11-03)."
 }

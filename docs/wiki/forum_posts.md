@@ -34,3 +34,14 @@ Purpose: ask AJ Quick where the page should live, following the same route as th
 | Date | Where | What | Reply |
 |---|---|---|---|
 | — | — | Nothing posted yet | — |
+
+## Draft: measurement request (gbrich thread)
+
+> Hi gbrich, the blueprint of the Hasbro 1984 pack is coming together from your photos and Hasbro's, but the overall size is still an estimate (about 655 mm, ±3%) because the only reference is the listed size of the Rothco frame. Could you take three tape measurements on your pack, with the board as the reference?
+>
+> 1. Motherboard, top edge to bottom edge, down the middle.
+> 2. Motherboard width: across the top, across the widest point at the gearbox step, and across the lower section.
+> 3. Your Rothco frame: outside width across the side tubes, and overall height.
+>
+> Millimetres to the nearest 1 mm would take the blueprint to about ±1%. A photo of the tape in place would let me check it against the drawing. Full credit on the wiki page, as with everything else from your thread. Thanks!
+

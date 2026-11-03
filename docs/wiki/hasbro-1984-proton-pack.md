@@ -23,34 +23,35 @@ Builders have pointed out several places where the 1984 pack differs from the 19
 No manufacturer drawings exist, so the blueprint is reconstructed from photographs and checked against parts of known size:
 
 - **Parts measured on a cutting mat.** Several stock parts were photographed by gbrich lying on a cutting mat with a printed 1 cm grid.[^p23] Each photo is calibrated from the grid itself (hundreds of grid crossings located to a fraction of a pixel), the camera position is recovered, and the part's height above the mat is corrected for.
-- **The whole pack from Hasbro's product photos.** The general arrangement is measured on Hasbro's product photos.[^hasbro] Their scale is set by features of known size and cross-checked between independent references: replica parts with documented real-world sizes (the crank knob and the tubing),[^wikicrank][^wikilegris] the harness webbing, and the aftermarket motherboard and ALICE frame gbrich fitted to his pack.[^p1][^p68][^p72][^redman][^rothco] The front product photo is taken from above with the pack leaning back, so its vertical distances are foreshortened by about 12%; this is measured from round parts facing the camera that appear oval (a cyclotron lens and the end cap of the bumper's copper knob) and corrected for. Widths and outlines come from Hasbro's straight-on back photo, which shows the motherboard square to the camera.
+- **Only Hasbro 1984 pack evidence.** Scale comes only from the Hasbro 1984 pack itself: Hasbro's product photos of it,[^hasbro] parts of it measured on a cutting mat,[^p23] and the ALICE frame gbrich fitted to his pack.[^p68][^p72][^rothco] Film-prop part sizes, other Hasbro packs (such as the HasLab Spengler pack) and aftermarket listings for those packs are not used for dimensions.
+- **The whole pack.** Outlines and proportions come from Hasbro's straight-on back photo, which shows the motherboard square to the camera; ratios measured there carry no scale error. The absolute size comes from the ALICE frame in gbrich's photos of his 1984 pack, both lying on the board and mounted to it.
 - **Validation.** A value is drawn only when at least two independent references agree within their uncertainty. Anything that disagrees is flagged, not averaged away.
 
 ### Overall size
 
-- **Overall height** (top to bottom of the motherboard): about **665 mm** (26¼ in), **estimated**, range 640–690 mm. Independent references agree: the crank knob (674–729 mm) and thin red tube (634–686 mm) in the front photo after the foreshortening correction, the shoulder strap and waist belt webbing in the back photo (652 and 678 mm, assuming standard 1½ in and 2 in webbing), the Redman aluminum motherboard (686 mm by its listed size) and the Rothco ALICE frame lying on that board (630–675 mm).[^hasbro][^wikicrank][^wikilegris][^redman][^rothco][^p68] The HasLab pack's shipping box, 26¾ in tall, is an upper bound.[^haslabbox]
-- **Correction from version 0.3:** the earlier figure of 590 mm came from the front photo without the foreshortening correction. Scaling the worn-pack photos by the wearers' head length also gives about 590 mm, which would need heads about 3½ standard deviations above average; that method is set aside until the discrepancy is explained.[^ansur]
+- **Overall height** (top to bottom of the motherboard): about **655 mm** (25¾ in), **estimated**, range 640–680 mm. Three measurements against the 20.5 × 12.5 in Rothco ALICE frame on gbrich's 1984 pack agree: the frame lying on the board (630–675 mm); the frame's width, which sits inside the board's upper section and overhangs its lower section, so the board is at least 644 mm tall; and the board widths in the same photo (630 and 671 mm).[^p68][^rothco][^hasbro] The frame's size is Rothco's listed figure, and it limits the accuracy to about ±3%.
+- **Conflicting estimate:** scaling Hasbro's worn-pack photos by the wearers' head length gives about 590 mm, which would need heads about 3½ standard deviations above average.[^ansur] The two methods don't agree, and the reason isn't known yet.
+- **Correction history:** version 0.3 gave 590 mm and version 0.4 gave 665 mm. Version 0.4 also used film-prop part sizes and a HasLab motherboard listing, which are outside this page's scope and have been removed.
 - **Depth:** in progress.
 
 ### Motherboard
 
-The motherboard is the flat back plate the shell, cyclotron and harness mount to. Its outline is measured on Hasbro's straight-on back photo; each width below is a ratio to the board's height, so all of them move with the 665 mm estimate (±4%).[^hasbro]
+The motherboard is the flat back plate the shell, cyclotron and harness mount to. Its outline is measured on Hasbro's straight-on back photo; each width below is a ratio to the board's height, so all of them move with the 655 mm estimate (±3%).[^hasbro]
 
-- **Lower section width** (below the gearbox step to the bottom taper): about **302 mm** (11⅞ in), **estimated**.
-- **Upper section width** (top of the board): about **329 mm** (13 in), **estimated**.
-- **Widest point**, the step behind the gearbox: about **346 mm** (13⅝ in), **estimated**. It runs from about 113 mm to 236 mm below the top edge, on the gearbox side.
+- **Lower section width** (below the gearbox step to the bottom taper): about **297 mm** (11¾ in), **estimated**.
+- **Upper section width** (top of the board): about **324 mm** (12¾ in), **estimated**.
+- **Widest point**, the step behind the gearbox: about **341 mm** (13⅜ in), **estimated**. It runs from about 111 mm to 232 mm below the top edge, on the gearbox side.
 - **Bottom taper and corner radii:** in progress.
 - **Fit check with the ALICE frame:** the 12½ in (318 mm) frame is wider than the lower section and narrower than the upper section. gbrich's photos show exactly that: the frame's side tubes overhang the lower board and sit just inside the edges at the top.[^p68][^rothco]
 
 #### Stock board and the Redman aluminum board
 
-gbrich replaced the stock board with Redman Studio Workshop's aluminum board for the HasLab pack, and it fitted the 1984 pack's shell.[^p1][^p68] The two differ in ways that matter for the blueprint:
+gbrich replaced the stock board with an aluminum board from Redman Studio Workshop, and it fitted the 1984 pack's shell.[^p1][^p68] The two differ in ways that matter for the blueprint:
 
-- **Material:** the stock board is molded plastic; Redman's is 1/8 in aluminum sheet.[^redman]
+- **Material:** the stock board is molded plastic; Redman's is aluminum sheet.[^p68]
 - **Bottom edge:** the stock board has a lip that wraps around the base of the shell, and the shell's lowest centimeter is flat to match. Redman's board is flat, so the flat strip stays visible after the swap.[^p55]
 - **Parts it holds:** the stock board holds the beamline tube and one other tube in place; Redman's doesn't, so they need washers or printed spacers.[^p55]
 - **Fixings:** Redman's board comes with 1/4-20 hardware and four L-brackets that tie it to the shell.[^p31][^p68]
-- **Listed size:** Redman gives "approx. 15 x 27 in" (381 × 686 mm). Against the photo estimate, the length is about 3% over and the width about 10% over the widest point, which reads as a rounded-up envelope rather than the cut outline. Redman's cut file, or a tape measure on a fitted board, would replace every estimate in this section.[^redman]
 
 Fitting details are under [Aluminum motherboard and ALICE frame](#aluminum-motherboard-and-alice-frame).
 
@@ -63,7 +64,7 @@ Fitting details are under [Aluminum motherboard and ALICE frame](#aluminum-mothe
 
 ### General arrangement
 
-Front, back and side views with component positions are in progress. They will be drawn to the 665 mm overall height and the motherboard outline above; a tape-measure reading from an owner, or Redman's cut file, would confirm both.
+Front, back and side views with component positions are in progress. They will be drawn to the 655 mm overall height and the motherboard outline above. A tape-measure reading of a 1984 pack's motherboard would confirm both.
 
 ## Taking it apart
 
@@ -334,7 +335,7 @@ These reports date from September to October 2026 and will change.
 - How long the 3000 mAh TalentCell lasts with the wand in use.[^p88]
 - Whether a 6000 mAh battery fits in the snack compartment.[^p72]
 - A printable twist-lock base for replacement emitter tubes.[^p82]
-- The pack's overall height measured with a tape: the photo estimate is 640–690 mm.[^hasbro]
+- The pack's overall height measured with a tape: the photo estimate is 640–680 mm.[^hasbro]
 
 ## Credits
 
@@ -411,10 +412,6 @@ Compiled by ryan-brumback, with AI assistance (Anthropic's Claude) for organizin
 [^p88]: gbrich, [post #88](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/88), 27 October 2026.
 [^p91]: gbrich, [post #91](https://forum.gbfans.com/t/hasbro-1984-proton-pack-big-overhaul-and-customisation/219236/91), 2 November 2026.
 [^hasbro]: Hasbro, [*Ghostbusters Plasma Series Proton Pack (1984)*](https://www.hasbropulse.com/product/ghostbusters-plasma-series-proton-pack-1984/G19145L00), Hasbro Pulse product page and product photos, accessed 3 November 2026.
-[^wikicrank]: GBFans.com Wiki, [*Crank Knob*](https://www.gbfans.com/wiki/equipment/proton-pack/crank-knob): MS91528 knob, 1-1/4 in diameter.
-[^wikilegris]: GBFans.com Wiki, [*Legris*](https://www.gbfans.com/wiki/equipment/proton-pack/legris): red 5/32 in tube from the HGA and cyclotron elbows to the attenuator.
-[^redman]: Redman Studio Workshop, [*GB Proton Pack MoBo (HASLAB)*](https://reach.dog/shop/redman-studio-workshop/products/proton-pack-mobo): "approx." 15 x 27 x 1/8 in aluminium motherboard, accessed 3 November 2026.
 [^rothco]: Rothco, [*Alice Pack Frame with Attachments*](https://www.rothco.com/product/rothco-alice-pack-frame-with-attachments): 20.5 x 12.5 in (listed as shipping dimensions), accessed 3 November 2026.
-[^haslabbox]: Shacknews, [*Unboxing & Review: HasLab Spengler's Proton Pack*](https://www.shacknews.com/article/133812/unboxing-review-haslab-spenglers-proton-pack): box 26.75 x 14.57 in.
 [^ansur]: The Ergonomics Center of North Carolina, [*Anthropometric Summary Data Tables*](https://www.ergocenter.ncsu.edu/wp-content/uploads/sites/18/2017/09/Anthropometric-Summary-Data-Tables.pdf) (2017), citing Gordon et al., *2012 Anthropometric Survey of U.S. Army Personnel* (ANSUR II): head length, men 50th percentile 7.87 in, SD 0.28 in.
 
